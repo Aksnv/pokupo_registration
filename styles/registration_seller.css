@@ -1,0 +1,434 @@
+/* Стили, относящиеся к процессу регистрации продавца (https://seller.pokupo.ru/user/reg_seller/) */
+
+/* Относится к общим стилям сайта */
+/* .main>section {
+  padding: 40px 0;
+} */
+/* END - Относится к общим стилям сайта */
+
+section.register-user {
+  padding-top: 0 !important;
+}
+
+/* Инлайн стили в коде html */
+.register-user {
+  margin-top: 30px;
+}
+/* END - Инлайн стили в коде html */
+
+/* Относится к общим стилям сайта */
+/* .container {
+  position: relative;
+  width: 100%;
+  max-width: 978px;
+  margin: 0 auto;
+} */
+/* END - Относится к общим стилям сайта */
+
+.doc {
+}
+
+/* Инлайн стили в коде html */
+.loading {
+  display: none;
+}
+/* END - Инлайн стили в коде html */
+
+#regForm {
+}
+
+/* Инлайн стили в коде html */
+.errorField, 
+.errorFieldCode  {
+  color: red;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#regFormFieldset {
+  border: none;
+}
+/* END - Инлайн стили в коде html */
+
+#registerShopWizard {
+}
+
+.b-wizard {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+/* Стили из файла tiles-box.css */
+.tilesBox {
+  clear: both;
+  margin: 0px auto 17px auto;
+  overflow: hidden;
+  width: 810px;
+}
+/* END - Стили из файла tiles-box.css */
+
+input[type="checkbox"], input[type="radio"] {
+  display: none;
+} 
+
+#type_seller_person {
+}
+
+.radio {
+}
+
+input[type="checkbox"]+label, input[type="radio"]+label {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input[type="radio"]:hover+label:before {
+    background-position: -36px 0
+}
+
+input[type="radio"]:active+label:before {
+    background-position: -36px 0
+}
+
+input[type="radio"]:checked+label:before {
+  background-position: -72px 0;
+}
+
+input[type="radio"]:checked:active+label:before {
+    background-position: -72px 0
+}
+
+input[type="radio"]+label:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 36px;
+  width: 36px;
+  margin: -4px 6px 0 0;
+  background-image: url("../../../images/ui/pokupo-ui-radio.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+/* Стили из файла tiles-box.css */
+.tilesBox .person {
+  background: url("../../../images/img_23.png") no-repeat scroll 0 bottom transparent;
+}
+
+.tilesBox .active {
+  border-color: #099033;
+  border-width: 2px;
+  color: #099033;
+}
+
+.tilesBox .tileElement {
+  border: 2px solid #CCCCCC;
+  border-radius: 5px 5px 5px 5px;
+  color: #666666;
+  font: 36px/150px arial;
+  height: 150px;
+  width: 330px;
+  display: inline-block;
+  text-align: right;
+  text-decoration: none;
+  padding-right: 30px;
+  margin: 0px 5px;
+}
+/* END - Стили из файла tiles-box.css */
+
+.person {
+  position: relative;
+  width: 270px;
+  padding: 0 20px 0 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#type_seller_company {
+}
+
+/* Стили из файла tiles-box.css */
+.tilesBox .company {
+  background: url("../../../images/img_24.png") no-repeat scroll 0 bottom transparent;
+} 
+/* END - Стили из файла tiles-box.css */
+
+#required-filelds {
+}
+
+.b-wizard__step-content {
+  margin-top: 35px;
+}
+
+.input-holder {
+  position: relative;
+  margin: 0 auto 20px;
+  padding: 0 0 20px;
+  max-width: 450px;
+  text-align: center;
+}
+
+.tooltip__trigger {
+  float: left;
+  margin: 14px -100% 0 12px;
+  position: absolute;
+  bottom: 33px;
+  left: 100%;
+  width: 32px;
+  height: 32px;
+  display: block;
+  border-radius: 32px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  cursor: help;
+  border: 2px solid #ffa800;
+}
+
+/* Инлайн стили в коде html */
+.input-holder input[type="email"] {
+  border: 2px solid #FFA800;
+  background-color: white;
+}
+/* END - Инлайн стили в коде html */
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+input[type="password"], 
+textarea {
+  width: 100%;
+  max-width: 450px;
+  height: 60px;
+  padding: 14px 18px;
+  font-size: 18px;
+  line-height: 30px;
+  border: 0;
+  outline: 0;
+  -webkit-transition: border,background .2s ease-in-out;
+  -o-transition: border,background .2s ease-in-out;
+  transition: border,background .2s ease-in-out;
+} 
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+input[type="password"], 
+textarea {
+  border: 3px solid transparent;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="tel"]:focus, 
+input[type="password"]:focus, 
+textarea:focus {
+  border: 3px solid #ff5a00;
+}
+
+.block-input {
+  background: #ededed;
+}
+
+.block-input:focus {
+  background: #fff;
+}
+
+.text-required {
+}
+
+/* Инлайн стили в коде html */
+.error {
+  color: red;
+  font-weight: bold;
+}
+/* END - Инлайн стили в коде html */
+
+.emailError {
+}
+
+/* Инлайн стили в коде html */
+.showLink {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.iconOpen {
+  background: url("../../../images/_akcent_bullet.png") no-repeat scroll 0 bottom transparent;
+}
+
+.iconOpenClose {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.iconClose {
+  background: url("../../../images/ico_37.png") no-repeat scroll 0 bottom transparent;
+}
+
+#nonrequired-fields {
+  display: none;
+}
+/* END - Инлайн стили в коде html */
+
+.subdomainError {
+}
+
+.siteError {
+}
+
+.phoneError {
+}
+
+#agreement {
+}
+
+#iagree {
+}
+
+.checkbox {
+}
+
+input[type='checkbox']+label.block-label, 
+input[type='radio']+label.block-label {
+  display: block;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.input-holder input[type="checkbox"]+label, 
+.input-holder input[type="radio"]+label {
+  padding-top: 18px;
+  display: inline-block;
+}
+
+.input-holder label {
+    font-size: 18px
+}
+
+.input-holder .b-small-text {
+  line-height: 20px;
+  font-size: 13px;
+  color: #333;
+}
+
+.iagree-label {
+}
+
+input[type='checkbox']+label.block-label:before, 
+input[type='radio']+label.block-label:before {
+  float: left;
+  margin-right: -100%;
+  position: relative;
+  left: -30px;
+}
+
+input[type="checkbox"]+label:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 24px;
+  width: 27px;
+  margin: -4px 4px 0 0;
+  background-repeat: no-repeat;
+  background-image: url("../../../images/ui/pokupo-ui.png");
+  background-position: 0 0;
+}
+
+input[type="checkbox"]:hover+label:before {
+    background-position: -27px 0
+}
+
+input[type="checkbox"]:active+label:before {
+    background-position: -54px 0
+}
+
+input[type="checkbox"]:checked+label:before {
+    background-position: -81px 0
+}
+
+input[type="checkbox"]:checked:active+label:before {
+    background-position: -54px 0
+}
+
+/* Инлайн стили в коде html */
+.iagree-req-message {
+  display: none;
+  color: red;
+  margin-top: 15px;
+  font-weight: bold;
+}
+/* END - Инлайн стили в коде html */
+
+#submit {
+}
+
+/* Инлайн стили в коде html */
+.button {
+  border: 2px solid #FFA800;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  background-color: #FFA800;
+  height: 40px;
+
+  width: 250px;
+  font-weight: bold;
+}
+/* END - Инлайн стили в коде html */
+
+.buttonSpan {
+  display: inline-block;
+  line-height: 40px;
+}
+
+.buttonGetCode {
+}
+
+/* Инлайн стили в коде html */
+#codeForm {
+  display: none;
+}
+/* END - Инлайн стили в коде html */
+
+.b-wizard__step-title {
+}
+
+.email-code-block {
+}
+
+.sms-code-block {
+}
+
+.backButton {
+}
+
+.activateButton {
+}
+
+.placeholder {
+  margin-bottom: 5px;
+  color: grey;
+}
+
+.message-send {
+  color: #1c84c6;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.message-send-email-phone {
+  display: none;
+}
+
+/* Можно отнести к общим стилям */
+/* .footer-overlay {
+  height: 140px;
+} */
+/* END - Можно отнести к общим стилям */

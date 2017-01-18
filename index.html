@@ -24,10 +24,13 @@
   <!-- Подключены online шрифты -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&subset=cyrillic" rel="stylesheet">
 
+  <!-- <link rel="stylesheet" href="styles/reset.css"> -->
   <link rel="stylesheet" href="styles/main-1.0.css">
   <link rel="stylesheet" href="styles/theme-1.0.css">
   <link rel="stylesheet" href="styles/header_footer_styles.css">
   <link rel="stylesheet" href="styles/header_footer_styles_display.css">
+  <link rel="stylesheet" href="styles/registration_seller.css">
+  <link rel="stylesheet" href="styles/theme.min.css">
   
   <!--[if lt IE 9]>
   <script src="..."></script>
@@ -53,7 +56,7 @@
               <a href="https://pokupo.ru/">
                 <span class="link-wrapper">Платформа</span>
               </a>
-              <ul class="page-header__column--submenu-platform">
+              <!-- <ul class="page-header__column--submenu-platform">
                 <li class="page-header__column--submenu-link">
                   <a href="https://pokupo.ru/about">
                     <span class="link-wrapper">О проекте</span>
@@ -64,7 +67,7 @@
                     <span class="link-wrapper">Торговый портал</span>
                   </a>
                 </li>
-              </ul>
+              </ul> -->
             </li>
             <li class="page-header__column--menu-link menu-link--rates">
               <a href="https://pokupo.ru/rates">
@@ -75,7 +78,7 @@
               <a href="https://pokupo.ru/events">
                 <span class="link-wrapper">Компания</span>
               </a>
-              <ul class="page-header__column--submenu-company">
+              <!-- <ul class="page-header__column--submenu-company">
                 <li class="page-header__column--submenu-link">
                   <a href="https://pokupo.ru/events">
                     <span class="link-wrapper">События</span>
@@ -101,7 +104,7 @@
                     <span class="link-wrapper">Блог</span>
                   </a>
                 </li>
-              </ul>
+              </ul> -->
             </li>
             <li class="page-header__column--menu-link menu-link--partners">
               <a href="https://pokupo.ru/partners">
@@ -109,10 +112,11 @@
               </a>
             </li>
             <li class="page-header__column--menu-link menu-link--help">
-              <a class="page-header__column--menu-active" href="https://pokupo.ru/faq">
+              <!-- <a class="page-header__column--menu-active" href="https://pokupo.ru/faq"> -->
+              <a href="https://pokupo.ru/faq">
                 <span class="link-wrapper">Помощь</span>
               </a>
-              <ul class="page-header__column--submenu-help">
+              <!-- <ul class="page-header__column--submenu-help">
                 <li class="page-header__column--submenu-link">
                   <a href="https://pokupo.ru/faq">
                     <span class="link-wrapper">Вопросы и ответы</span>
@@ -128,19 +132,14 @@
                     <span class="link-wrapper">Техническая поддержка</span>
                   </a>
                 </li>
-                <!-- <li class="page-header__column--submenu-link">
-                  <a href="https://pokupo.ru/webinar_list">
-                    <span class="link-wrapper">Вебинары</span>
-                  </a>
-                </li> -->
-              </ul>
+              </ul> -->
             </li>
           </ul>
         </nav>
       </div>
-      <div class="page-header__column page-header__column--search">
+      <!-- <div class="page-header__column page-header__column--search">
         <button class="header-icon header-icon--search">Search</button>
-      </div>
+      </div> -->
       <div class="page-header__column page-header__column--login-seller">
         <a href="https://seller.pokupo.ru/login" class="header-icon header-icon--login" title="Кабинет продавца">Login seller</a>
       </div>
@@ -148,13 +147,160 @@
         <a href="https://pokupo.ru/partners#/registration_seller/" class="header-icon--registration"><span>Открыть магазин</span></a>
       </div>
     </div>
-    <div class="page-header__column--submenu"></div>
+    <!-- <div class="page-header__column--submenu"></div> -->
   </header>
 
   <!-- Page content -->
-  <section class="client-registration">
+  <section class="client-instructions">
     <div class="container">
-      
+      <section class="register-user" style="margin-top: 30px;">
+        <div class="container">
+            <div class="doc">
+                <!--<div class="h1-with-progress-bar seller">
+                    <canvas id="progressCircle" width="160" height="160">
+                        <p>Ваш браузер не поддерживает технологию canvas</p>
+                    </canvas>
+                    <h1></h1>
+                </div>-->
+
+                <div class="loading">
+                    <img src="//seller.pokupo.ru/images/loading150.gif">
+                </div>
+
+                <form id="regForm">
+                    <div class="errorField"></div>
+                    <fieldset id="regFormFieldset">
+                        <div id="registerShopWizard" class="b-wizard">
+
+                                                        <div class="">
+                                <div class="tilesBox">
+                                    <input id="type_seller_person" name="type_seller" type="radio" class="radio" value="person" checked="checked">
+                                    <label for="type_seller_person">
+                                        <span class="tileElement person active" style="border: 3px solid rgb(9, 144, 51);">Частное лицо</span>
+                                    </label>
+                                    <input id="type_seller_company" name="type_seller" type="radio" class="radio" value="company">
+                                    <label for="type_seller_company">
+                                        <span class="tileElement company" style="border: 2px solid rgb(204, 204, 204);">Компания</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                                                        <div id="required-filelds">
+                                <div class="b-wizard__step-content">
+                                    <div class="input-holder">
+                                        <div rel="tooltip" title="Email для уведомлений о заказах" class="tooltip__trigger">?</div>
+                                        <div class="placeholder" id="placeholder-email"></div>
+                                        <input type="email" name="email" value="" placeholder="Ваш e-mail *" class="block-input text-required" style="border: 2px solid #FFA800; background-color: white" onblur="isEmailCorrect()" onfocus="onFocusField('email')">
+                                        <div class="error emailError"></div>
+                                    </div>
+
+                                    <div class="input-holder">
+                                        <div rel="tooltip" title="Телефон для связи" class="tooltip__trigger">?</div>
+                                        <div class="placeholder" id="placeholder-phone"></div>
+                                        <input type="tel" name="phone" value="" placeholder="Номер телефона (начиная с 7)" class="block-input" onblur="isPhoneCorrect()" onfocus="onFocusField('phone')">
+                                        <div class="error phoneError"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                                                        <div class="showLink">Дополнительные данные (необязательно)<span class="iconOpenClose iconClose"></span></div>
+                            <div id="nonrequired-fields" style="display: none;">
+                                <div class="b-wizard__step-content">
+
+                                    <div class="input-holder">
+                                        <div rel="tooltip" title="Название магазина, который будет создан для вас (сможете поменять в дальнейшем)" class="tooltip__trigger">?</div>
+                                        <div class="placeholder" id="placeholder-sellername"></div>
+                                        <input type="text" name="sellername" value="" placeholder="Название магазина" class="block-input" onblur="isSellernameCorrect()" onfocus="onFocusField('sellername')">
+                                        <div class="error sellernameError"></div>
+                                    </div>
+
+                                    <div class="input-holder">
+                                        <div rel="tooltip" title="Желаемый поддомен на домене pokupo.ru" class="tooltip__trigger">?</div>
+                                        <div class="placeholder" id="placeholder-subdomain"></div>
+                                        <input type="text" name="subdomain" value="" placeholder="Желаемый поддомен на домене pokupo.ru" class="block-input" onfocus="onFocusField('subdomain')" onblur="onBlurField('subdomain')">
+                                        <div class="error subdomainError"></div>
+                                        <div class="subdomainInfo"></div>
+
+                                    </div>
+
+                                    <div class="input-holder">
+                                        <div rel="tooltip" title="URL вашего сайта, если у вас есть. Будет добавлен в настройках магазина" class="tooltip__trigger">?</div>
+                                        <div class="placeholder" id="placeholder-site"></div>
+                                        <input type="text" name="site" value="" placeholder="Адрес сайта (если есть)" class="block-input" onblur="isUrlCorrect()" onfocus="onFocusField('site')">
+                                        <div class="error siteError"></div>
+                                    </div>
+
+                                    <!--<div class="input-holder">
+                                        <div rel="tooltip" title="Телефон для связи" class="tooltip__trigger">?</div>
+                                        <div class="placeholder" id="placeholder-phone"></div>
+                                        <input type="tel" name="phone" value="" placeholder="Номер телефона (начиная с 7)" class="block-input" onblur="isPhoneCorrect()"  onfocus="onFocusField('phone')">
+                                        <div class="error phoneError"></div>
+                                    </div>-->
+
+                                    <div class="input-holder">
+                                        <div rel="tooltip" title="Код приглашения" class="tooltip__trigger">?</div>
+                                        <div class="placeholder" id="placeholder-invite"></div>
+                                        <input type="text" name="invite" value="" placeholder="Код приглашения" class="block-input" onfocus="onFocusField('invite')" onblur="onBlurField('invite')">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                                                        <div id="agreement">
+                                <div class="input-holder">
+                                    <input id="iagree" name="iagree" type="checkbox" class="checkbox">
+                                    <label for="iagree" class="block-label b-small-text iagree-label">Я принимаю условия <a href="https://pokupo.ru/rules" target="_blank">пользовательского соглашения</a>,
+                                        <br><a href="https://pokupo.ru/police" target="_blank">правил конфиденциальности</a> и <a href="https://pokupo.ru/refund" target="_blank">политики возврата платежей</a>
+                                    </label>
+                                    <div style="display: none; color: red; margin-top: 15px; font-weight: bold" class="iagree-req-message">Для регистрации необходимо согласиться с условиями</div>
+                                </div>
+                            </div>
+
+                            <div id="submit">
+                                <button class="button buttonGetCode">Получить код на email</button>
+                            </div>
+
+                        </div>
+                    </fieldset>
+                </form>
+
+
+
+                <form id="codeForm">
+                    <div class="errorFieldCode"></div>
+                    <div class="message-send message-send-email">
+                        На вашу почту выслан код для активации. Введите его в соответствующее поле или перейдите по ссылке из письма.
+                    </div>
+                    <div class="message-send message-send-email-phone">
+                        На вашу почту и указанный телефон высланы коды для активации. Введите оба кода в соответствующие поля.
+                    </div>
+                    <div>
+                        <h2 class="b-wizard__step-title">Активация магазина</h2>
+                        <div class="b-wizard__step-content">
+                            <div class="input-holder email-code-block">
+                                <div rel="tooltip" title="Код, высланный на почтовый адрес" class="tooltip__trigger">?</div>
+                                <input type="text" id="mail_token" name="mail_token" value="" placeholder="Код, присланный по email" class="block-input">
+                            </div>
+                            <div class="input-holder sms-code-block">
+                                <div rel="tooltip" title="Код, высланный на телефон" class="tooltip__trigger">?</div>
+                                <input type="text" id="sms_token" name="sms_token" value="" placeholder="Код, присланный по смс" class="block-input">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="submit">
+                        <span class="button backButton buttonSpan">Назад</span>
+                        <button class="button activateButton">Закончить регистрацию</button>
+                    </div>
+                </form>
+
+
+
+            </div>
+        </div>
+      </section>
     </div>
   </section>
 
@@ -197,7 +343,7 @@
           </div>
         </div>
       </div>
-      <div class="page-footer__payment-system">
+      <!-- <div class="page-footer__payment-system">
         <a class="payment-system__item" href="#" title="PayU"><img src="images/logo/payu.png" alt="PayU"></a>
         <a class="payment-system__item" href="#" title="Visa"><img src="images/logo/visa.png" alt="Visa"></a>
         <a class="payment-system__item" href="#" title="Verified by Visa"><img src="images/logo/by-visa.png" alt="Verified by Visa"></a>
@@ -207,7 +353,7 @@
         <a class="payment-system__item" href="#" title="Qiwi"><img src="images/logo/qiwi.png" alt="Qiwi"></a>
         <a class="payment-system__item" href="#" title="Евросеть"><img src="images/logo/euroset.png" alt="Евросеть"></a>
         <a class="payment-system__item" href="#" title="Связной"><img src="images/logo/svyaznoy.png" alt="Связной"></a>
-      </div>
+      </div> -->
     </div>
   </footer>
 </body>
