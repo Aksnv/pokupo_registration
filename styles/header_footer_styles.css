@@ -250,11 +250,27 @@
   color: #177a93;
 }
 
+.page-footer__column--left,
+.page-footer__column--center {
+  position: relative;
+}
+
+.page-footer__column--left::after,
+.page-footer__column--center::after {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  content: '';
+  width: 1px;
+  height: 60px;
+  background-color: #cccccc;
+}
+
 .page-footer__column {
   float: left;
   width: 25%;
   margin-top: 41px;
-  padding-left: 2px;
+  /* padding-left: 2px; */
 }
 
 .contact-icon::before {
