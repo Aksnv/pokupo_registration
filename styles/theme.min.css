@@ -4997,7 +4997,7 @@ textarea {
 input[type='checkbox']+label.block-label,input[type='radio']+label.block-label {
     display: block;
     text-align: left;
-    margin-left: 30px
+    margin-left: 45px
 } 
 
 input[type='checkbox']+label.block-label:before,input[type='radio']+label.block-label:before {
@@ -6712,7 +6712,8 @@ body.vjs-full-window {
 /* Перенесено в registration_seller.css */
 .b-wizard {
     position: relative;
-    padding-bottom: 50px
+    /* padding-bottom: 50px; */
+    padding-bottom: 110px;
 } 
 /* END - Перенесено в registration_seller.css */
 
@@ -6777,7 +6778,7 @@ body.vjs-full-window {
 
 /* Перенесено в registration_seller.css */
 .b-wizard__step-content {
-    margin-top: 35px
+    margin-top: 31px
 } 
 /* END - Перенесено в registration_seller.css */
 
@@ -7911,7 +7912,7 @@ section.price .with-icon:before {
 .person {
     position: relative;
     width: 270px;
-    padding: 0 20px 0 0;
+    /* padding: 0 20px 0 0; */
     display: inline-block;
     vertical-align: top
 } 
@@ -18212,7 +18213,7 @@ ul.checked li:before {
  
  input[type="radio"]+label:before {
     /* background-image: url("../../../images/ui/pokupo-ui-radio.png"); */
-    background-image: url("../images/ui/pokupo-ui-radio.png")
+    /* background-image: url("../images/ui/pokupo-ui-radio.png") */
  } 
  
  input[type="text"],input[type="email"],input[type="tel"],input[type="password"],textarea {

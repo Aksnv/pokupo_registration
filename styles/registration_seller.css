@@ -68,6 +68,11 @@ section.register-user {
 }
 /* END - Стили из файла tiles-box.css */
 
+label[for="type_seller_company"],
+label[for="type_seller_person"] {
+  position: relative;
+}
+
 input[type="checkbox"], input[type="radio"] {
   display: none;
 } 
@@ -86,7 +91,7 @@ input[type="checkbox"]+label, input[type="radio"]+label {
   user-select: none;
 }
 
-input[type="radio"]:hover+label:before {
+/* input[type="radio"]:hover+label:before {
     background-position: -36px 0
 }
 
@@ -100,7 +105,12 @@ input[type="radio"]:checked+label:before {
 
 input[type="radio"]:checked:active+label:before {
     background-position: -72px 0
+} */
+
+input[type="radio"]:checked+label:after {
+  background-color: #02903d;
 }
+
 
 input[type="radio"]+label:before {
   content: "";
@@ -110,15 +120,44 @@ input[type="radio"]+label:before {
   width: 36px;
   margin: -4px 6px 0 0;
   /* background-image: url("../../../images/ui/pokupo-ui-radio.png"); */
-  background-image: url("../images/ui/pokupo-ui-radio.png");
+  /* background-image: url("../images/ui/pokupo-ui-radio.png");
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: 0 0; */
+  border-radius: 50%;
+  background-color: #ffffff;
+
+  position: absolute;
+  top: 211px;
+  left: 100px;
+  z-index: 2;
+}
+
+input[type="radio"]+label:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 18px;
+  width: 18px;
+  margin: -4px 6px 0 0;
+  /* background-image: url("../../../images/ui/pokupo-ui-radio.png"); */
+  /* background-image: url("../images/ui/pokupo-ui-radio.png");
+  background-repeat: no-repeat;
+  background-position: 0 0; */
+  border-radius: 50%;
+  background-color: #ffffff;
+
+  position: absolute;
+  top: 220px;
+  left: 109px;
+  z-index: 2;
 }
 
 /* Стили из файла tiles-box.css */
 .tilesBox .person {
   /* background: url("../../../images/img_23.png") no-repeat scroll 0 bottom transparent; */
-  background: url("../images/img_23.png") no-repeat scroll 0 bottom transparent;
+  /* background: url("../images/img_23.png") no-repeat scroll 0 bottom transparent; */
+  background: url("../images/item_1.png") no-repeat scroll 0 bottom transparent;
+  background-position: center 50px;
 }
 
 .tilesBox .active {
@@ -128,24 +167,37 @@ input[type="radio"]+label:before {
 }
 
 .tilesBox .tileElement {
-  border: 2px solid #CCCCCC;
-  border-radius: 5px 5px 5px 5px;
-  color: #666666;
-  font: 36px/150px arial;
-  height: 150px;
-  width: 330px;
+  /* border: 2px solid #CCCCCC; */
+  /* border-radius: 5px 5px 5px 5px; */
+  /* color: #666666;
+  font: 36px/150px arial; */
+  /* height: 150px;
+  width: 330px; */
+  width: 210px;
+  height: 260px;
+  background-color: #efece7;
+  font-size: 18px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  vertical-align: top;
+  border-radius: 35px;
+  text-align: center;
+  padding-top: 174px;
+
   display: inline-block;
-  text-align: right;
+  /* text-align: right; */
   text-decoration: none;
-  padding-right: 30px;
-  margin: 0px 5px;
+  /* padding-right: 30px; */
+  /* margin: 0px 5px; */
+  margin: 0px 13px;
 }
 /* END - Стили из файла tiles-box.css */
 
 .person {
   position: relative;
   width: 270px;
-  padding: 0 20px 0 0;
+  /* padding: 0 20px 0 0; */
   display: inline-block;
   vertical-align: top;
 }
@@ -156,7 +208,10 @@ input[type="radio"]+label:before {
 /* Стили из файла tiles-box.css */
 .tilesBox .company {
   /* background: url("../../../images/img_24.png") no-repeat scroll 0 bottom transparent; */
-  background: url("../images/img_24.png") no-repeat scroll 0 bottom transparent;
+  /* background: url("../images/img_24.png") no-repeat scroll 0 bottom transparent; */
+  background: url("../images/item_2.png") no-repeat scroll 0 bottom transparent;
+  background-position: center 62px;
+  background-color: #efece7;
 } 
 /* END - Стили из файла tiles-box.css */
 
@@ -293,7 +348,8 @@ textarea:focus {
 .phoneError {
 }
 
-#agreement {
+#agreement .input-holder {
+  margin-bottom: 11px;
 }
 
 #iagree {
@@ -396,6 +452,17 @@ input[type="checkbox"]:checked:active+label:before {
 }
 
 .buttonGetCode {
+  width: 258px;
+  height: 60px;
+  background-color: #ffa800;
+  border: 4px solid #ffa800;
+  border-radius: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
 }
 
 /* Инлайн стили в коде html */
