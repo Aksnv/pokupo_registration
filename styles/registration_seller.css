@@ -64,7 +64,7 @@ section.register-user {
   clear: both;
   margin: 0px auto 17px auto;
   overflow: hidden;
-  width: 810px;
+  /* width: 810px; */
 }
 /* END - Стили из файла tiles-box.css */
 
@@ -505,3 +505,9 @@ input[type="checkbox"]:checked:active+label:before {
   height: 140px;
 } */
 /* END - Можно отнести к общим стилям */
+
+@media screen and (max-width: 1024px) {
+
+  
+
+}

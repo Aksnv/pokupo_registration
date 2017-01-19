@@ -22215,3 +22215,11 @@ h2.event__title {
         background-position: -210px -222px
     }
 }
+
+@media screen and (max-width: 1024px) {
+
+  .container {
+    max-width: 660px;
+  }
+
+}

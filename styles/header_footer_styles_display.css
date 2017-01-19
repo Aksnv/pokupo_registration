@@ -277,6 +277,11 @@
   .payment-system__item:nth-child(7) {
     margin-right: 12px;
   }
+
+  .page-footer__column--left::after, 
+  .page-footer__column--center::after {
+    display: none;
+  }
 }
 
 
