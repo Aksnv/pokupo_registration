@@ -109,14 +109,16 @@ input[type="radio"]+label:before {
   height: 36px;
   width: 36px;
   margin: -4px 6px 0 0;
-  background-image: url("../../../images/ui/pokupo-ui-radio.png");
+  /* background-image: url("../../../images/ui/pokupo-ui-radio.png"); */
+  background-image: url("../images/ui/pokupo-ui-radio.png");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 
 /* Стили из файла tiles-box.css */
 .tilesBox .person {
-  background: url("../../../images/img_23.png") no-repeat scroll 0 bottom transparent;
+  /* background: url("../../../images/img_23.png") no-repeat scroll 0 bottom transparent; */
+  background: url("../images/img_23.png") no-repeat scroll 0 bottom transparent;
 }
 
 .tilesBox .active {
@@ -153,7 +155,8 @@ input[type="radio"]+label:before {
 
 /* Стили из файла tiles-box.css */
 .tilesBox .company {
-  background: url("../../../images/img_24.png") no-repeat scroll 0 bottom transparent;
+  /* background: url("../../../images/img_24.png") no-repeat scroll 0 bottom transparent; */
+  background: url("../images/img_24.png") no-repeat scroll 0 bottom transparent;
 } 
 /* END - Стили из файла tiles-box.css */
 
@@ -260,7 +263,8 @@ textarea:focus {
 }
 
 .iconOpen {
-  background: url("../../../images/_akcent_bullet.png") no-repeat scroll 0 bottom transparent;
+  /* background: url("../../../images/_akcent_bullet.png") no-repeat scroll 0 bottom transparent; */
+  background: url("../images/_akcent_bullet.png") no-repeat scroll 0 bottom transparent;
 }
 
 .iconOpenClose {
@@ -271,7 +275,8 @@ textarea:focus {
 }
 
 .iconClose {
-  background: url("../../../images/ico_37.png") no-repeat scroll 0 bottom transparent;
+  /* background: url("../../../images/ico_37.png") no-repeat scroll 0 bottom transparent; */
+  background: url("../images/ico_37.png") no-repeat scroll 0 bottom transparent;
 }
 
 #nonrequired-fields {
@@ -339,7 +344,8 @@ input[type="checkbox"]+label:before {
   width: 27px;
   margin: -4px 4px 0 0;
   background-repeat: no-repeat;
-  background-image: url("../../../images/ui/pokupo-ui.png");
+  /* background-image: url("../../../images/ui/pokupo-ui.png"); */
+  background-image: url("../images/ui/pokupo-ui.png");
   background-position: 0 0;
 }
 

@@ -18206,11 +18206,13 @@ ul.checked li:before {
  }
  
  input[type="checkbox"]+label:before {
-     background-image: url("../../../images/ui/pokupo-ui.png")
+     /* background-image: url("../../../images/ui/pokupo-ui.png"); */
+     background-image: url("../images/ui/pokupo-ui.png")
  }
  
  input[type="radio"]+label:before {
-     background-image: url("../../../images/ui/pokupo-ui-radio.png")
+    /* background-image: url("../../../images/ui/pokupo-ui-radio.png"); */
+    background-image: url("../images/ui/pokupo-ui-radio.png")
  } 
  
  input[type="text"],input[type="email"],input[type="tel"],input[type="password"],textarea {
