@@ -156,8 +156,37 @@ input[type="radio"]+label:after {
 .tilesBox .person {
   /* background: url("../../../images/img_23.png") no-repeat scroll 0 bottom transparent; */
   /* background: url("../images/img_23.png") no-repeat scroll 0 bottom transparent; */
-  background: url("../images/item_1.png") no-repeat scroll 0 bottom transparent;
-  background-position: center 50px;
+  /* background: url("../images/item_1.png") no-repeat scroll 0 bottom transparent;
+  background-position: center 50px; */
+}
+
+.person,
+.company {
+  position: relative;
+}
+
+.person::before {
+  position: absolute;
+  top: 50px;
+  left: 61px;
+  content: "";
+  display: block;
+  width: 88px;
+  height: 100px;
+  background-image: url(../images/main_sprite.png);
+  background-position: -552px -847px;
+}
+
+.company::before {
+  position: absolute;
+  top: 62px;
+  left: 71px;
+  content: "";
+  display: block;
+  width: 68px;
+  height: 88px;
+  background-image: url(../images/main_sprite.png);
+  background-position: -648px -847px;
 }
 
 .tilesBox .active {
@@ -209,8 +238,8 @@ input[type="radio"]+label:after {
 .tilesBox .company {
   /* background: url("../../../images/img_24.png") no-repeat scroll 0 bottom transparent; */
   /* background: url("../images/img_24.png") no-repeat scroll 0 bottom transparent; */
-  background: url("../images/item_2.png") no-repeat scroll 0 bottom transparent;
-  background-position: center 62px;
+  /* background: url("../images/item_2.png") no-repeat scroll 0 bottom transparent;
+  background-position: center 62px; */
   background-color: #efece7;
 } 
 /* END - Стили из файла tiles-box.css */
@@ -519,13 +548,37 @@ input[type="checkbox"]:checked:active+label:before {
 
   .tilesBox .person {
     margin-bottom: 3px;
-    background-image: url("../images/item_11.png");
-    background-position: 75px 10px;
+    /* background-image: url("../images/item_11.png");
+    background-position: 75px 10px; */
+  }
+
+  .person::before {
+    position: absolute;
+    top: 10px;
+    left: 75px;
+    content: "";
+    display: block;
+    width: 44px;
+    height: 50px;
+    background-image: url(../images/main_sprite.png);
+    background-position: -728px -831px;
   }
 
   .tilesBox .company {
-    background-image: url("../images/item_21.png");
-    background-position: 80px 13px;
+    /* background-image: url("../images/item_21.png");
+    background-position: 80px 13px; */
+  }
+
+  .company::before {
+    position: absolute;
+    top: 13px;
+    left: 80px;
+    content: "";
+    display: block;
+    width: 34px;
+    height: 44px;
+    background-image: url(../images/main_sprite.png);
+    background-position: -727px -895px;
   }
   
   input[type="radio"]+label:after {
