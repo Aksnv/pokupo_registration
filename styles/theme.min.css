@@ -22223,3 +22223,40 @@ h2.event__title {
   }
 
 }
+
+
+@media screen and (max-width: 749px) {
+
+  .container {
+    max-width: 360px;
+  }
+
+  input[type="text"], 
+  input[type="email"], 
+  input[type="tel"], 
+  input[type="password"], 
+  textarea {
+    max-width: 300px;
+    padding: 14px 15px;
+  }
+
+  .tooltip__trigger {
+    display: none;
+  }
+
+  .input-holder input[type="checkbox"]+label, 
+  .input-holder input[type="radio"]+label {
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+
+  input[type="checkbox"]+label:before {
+    margin: -3px 4px 0 0;
+  }
+
+  .b-wizard {
+    padding-bottom: 90px;
+  }
+
+} 
+

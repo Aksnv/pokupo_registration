@@ -224,6 +224,14 @@
   background-position: -858px -483px;
 }
 
+.page-header__line {
+  clear: both;
+  display: none;
+  width: 360px;
+  height: 3px;
+  background-color: #efece7;
+}
+
 /* ---------------  --------------- Footer ---------------  --------------- */
 
 .page-footer {

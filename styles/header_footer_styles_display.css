@@ -284,10 +284,23 @@
   }
 }
 
+@media screen and (max-width: 800px) and (min-width: 750px) {
+  
+  /* ---------------  Header --------------- */
+
+  .page-header__column--logo {
+    margin-right: 160px;
+  }
+
+}
 
 @media screen and (max-width: 749px) {
 
   /* ---------------  Header --------------- */
+
+  .page-header {
+    margin-bottom: 0;
+  }
 
   .page-header__column--logo {
     margin-right: 28px;
@@ -357,7 +370,13 @@
   }
 
   .header-icon--registration::before {
-    left: 7px;
+    left: 10px;
+  }
+
+  .page-header__line {
+    display: block;
+    position: absolute;
+    top: 117px;
   }
 
   

@@ -129,7 +129,7 @@ input[type="radio"]+label:before {
   position: absolute;
   top: 211px;
   left: 100px;
-  z-index: 2;
+  z-index: 1;
 }
 
 input[type="radio"]+label:after {
@@ -149,7 +149,7 @@ input[type="radio"]+label:after {
   position: absolute;
   top: 220px;
   left: 109px;
-  z-index: 2;
+  z-index: 1;
 }
 
 /* Стили из файла tiles-box.css */
@@ -506,8 +506,48 @@ input[type="checkbox"]:checked:active+label:before {
 } */
 /* END - Можно отнести к общим стилям */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 749px) {
 
+  .tilesBox .tileElement {
+    width: 299px;
+    height: 70px;
+    text-align: left;
+    margin: 0 26px;
+    padding-top: 24px;
+    padding-left: 133px;
+  }
+
+  .tilesBox .person {
+    margin-bottom: 3px;
+    background-image: url("../images/item_11.png");
+    background-position: 75px 10px;
+  }
+
+  .tilesBox .company {
+    background-image: url("../images/item_21.png");
+    background-position: 80px 13px;
+  }
   
+  input[type="radio"]+label:after {
+    top: 33px;
+    left: 54px;
+  }
+
+  input[type="radio"]+label:before {
+    top: 23px;
+    left: 45px;
+  }
+
+  .showLink {
+    padding-left: 8px;
+  }
+
+  #agreement .input-holder {
+    margin-bottom: 25px;
+  }
+
+  .buttonGetCode {
+    width: 299px;
+  }
 
 }
