@@ -27,8 +27,8 @@
   <!-- <link rel="stylesheet" href="styles/reset.css"> -->
   <!-- <link rel="stylesheet" href="styles/main-1.0.css">
   <link rel="stylesheet" href="styles/theme-1.0.css"> -->
-  <link rel="stylesheet" href="styles/header_footer_styles.css">
-  <link rel="stylesheet" href="styles/header_footer_styles_display.css">
+  <!-- <link rel="stylesheet" href="styles/header_footer_styles.css">
+  <link rel="stylesheet" href="styles/header_footer_styles_display.css"> -->
   <link rel="stylesheet" href="styles/registration_seller.css">
   <link rel="stylesheet" href="styles/theme.min.css">
   
@@ -38,120 +38,125 @@
 
   <!-- <script src="..."></script> -->
 </head>
-<body>
+<body cz-shortcut-listen="true">
   
   <!-- Page header -->
-  <header class="page-header">
-    <div class="container">
-      <div class="page-header__column page-header__column--logo">
-        <!-- <a href="https://pokupo.ru/" title="Pokupo.ru">Pokupo.ru</a> -->
-        <a href="https://pokupo.ru/" title="Pokupo.ru"></a>
-      </div>
-      <div class="page-header__column page-header__column--menu-hamburger hamburger-wrapper">
-        <span>Меню</span>
-      </div>
-      <div class="page-header__column page-header__column--menu">
-        <nav>
-          <ul>
-            <li class="page-header__column--menu-link menu-link--platform">
-              <a href="https://pokupo.ru/">
-                <span class="link-wrapper">Платформа</span>
-              </a>
-              <!-- <ul class="page-header__column--submenu-platform">
-                <li class="page-header__column--submenu-link">
-                  <a href="https://pokupo.ru/about">
-                    <span class="link-wrapper">О проекте</span>
-                  </a>
+  <div class="main">
+            <section class="header">
+            <div class="container">
+                <a href="https://promodev.pokupo.ru/" title="Pokupo.ru" class="logo"></a>
+                <div class="menu-login">
+                    <div class="logged-in">
+                        <a href="https://seller.pokupo.ru/login" class="icon-user" title="Кабинет продавца">
+                        </a>
+                        <a href="" class="btn btn-sm"><i class="icon icon-store--small">
+                            </i>Открыть магазин
+                        </a>
+                    </div>
+                </div>
+                    <span id="toggleNav">
+                        <i class="icon icon-menu"></i>Меню
+                    </span>
+                    <style>
+        .menu__item a {
+            color: black;
+        }
+    </style>
+    <ul class="menu b-navigation">
+        <li class="menu__item with-submenu">
+            <a href="https://promodev.pokupo.ru/" target="">
+                <span>Платформа</span>
+            </a>
+            <ul class="submenu">
+                <li class="submenu__item with-submenu">
+                    <a href="https://promodev.pokupo.ru/about" target="" class="">
+                        <span>О проекте</span>
+                    </a>
+                    <ul class="submenu">
+                    </ul>
                 </li>
-                <li class="page-header__column--submenu-link">
-                  <a href="https://pokupo.ru/shop">
-                    <span class="link-wrapper">Торговый портал</span>
-                  </a>
+                <li class="submenu__item with-submenu">
+                    <a href="https://promodev.pokupo.ru/shop" target="" class="">
+                        <span>Торговый портал</span>
+                    </a>
+                    <ul class="submenu">
+                    </ul>
                 </li>
-              </ul> -->
-            </li>
-            <li class="page-header__column--menu-link menu-link--rates">
-              <a href="https://pokupo.ru/rates">
-                <span class="link-wrapper">Тарифы</span>
-              </a>
-            </li>
-            <li class="page-header__column--menu-link menu-link--company">
-              <a href="https://pokupo.ru/events">
-                <span class="link-wrapper">Компания</span>
-              </a>
-              <!-- <ul class="page-header__column--submenu-company">
-                <li class="page-header__column--submenu-link">
-                  <a href="https://pokupo.ru/events">
-                    <span class="link-wrapper">События</span>
-                  </a>
+            </ul>
+        </li>
+        <li class="menu__item with-submenu">
+            <a href="https://promodev.pokupo.ru/rates" target="" class="">
+                <span>Тарифы</span>
+            </a>
+        </li>
+        <li class="menu__item with-submenu">
+            <a href="https://promodev.pokupo.ru/events" target="" class="">
+                <span>Компания</span>
+            </a>
+            <ul class="submenu ">
+                <li class="submenu__item with-submenu">
+                    <a href="https://promodev.pokupo.ru/events" target="" class="">
+                        <span>События</span>
+                    </a>
+                    <ul class="submenu">
+                    </ul>
                 </li>
-                <li class="page-header__column--submenu-link">
-                  <a href="https://pokupo.ru/aboutus">
-                    <span class="link-wrapper">О нас</span>
-                  </a>
+                <li class="submenu__item with-submenu">
+                    <a href="https://promodev.pokupo.ru/aboutus" target="" class="">
+                        <span>О нас</span>
+                    </a>
+                    <ul class="submenu">
+                    </ul>
                 </li>
-                <li class="page-header__column--submenu-link">
-                  <a href="https://pokupo.ru/reviews">
-                    <span class="link-wrapper">Отзывы</span>
-                  </a>
+                <li class="submenu__item with-submenu">
+                    <a href="https://promodev.pokupo.ru/community" target="" class="">
+                        <span>Сообщество</span>
+                    </a>
+                    <ul class="submenu">
+                    </ul>
                 </li>
-                <li class="page-header__column--submenu-link">
-                  <a href="https://pokupo.ru/community">
-                    <span class="link-wrapper">Сообщество</span>
-                  </a>
+                <li class="submenu__item with-submenu">
+                    <a href="http://pokupo.livejournal.com/" target="" class="">
+                        <span>Блог</span>
+                    </a>
+                    <ul class="submenu">
+                    </ul>
                 </li>
-                <li class="page-header__column--submenu-link">
-                  <a href="https://pokupo.ru/blog">
-                    <span class="link-wrapper">Блог</span>
-                  </a>
+            </ul>
+        </li>
+        <li class="menu__item with-submenu">
+            <a href="https://promodev.pokupo.ru/partners" target="" class="">
+                <span>Партнеры</span>
+            </a>
+        </li>
+        <li class="menu__item with-submenu">
+            <a href="https://promodev.pokupo.ru/faq" target="" class="">
+                <span>Помощь</span>
+            </a>
+            <ul class="submenu ">
+                <li class="submenu__item with-submenu">
+                    <a href="https://promodev.pokupo.ru/faq" target="" class="">
+                        <span>Вопросы и ответы</span>
+                    </a>
+                    <ul class="submenu">
+                    </ul>
                 </li>
-              </ul> -->
-            </li>
-            <li class="page-header__column--menu-link menu-link--partners">
-              <a href="https://pokupo.ru/partners">
-                <span class="link-wrapper">Партнеры</span>
-              </a>
-            </li>
-            <li class="page-header__column--menu-link menu-link--help">
-              <!-- <a class="page-header__column--menu-active" href="https://pokupo.ru/faq"> -->
-              <a href="https://pokupo.ru/faq">
-                <span class="link-wrapper">Помощь</span>
-              </a>
-              <!-- <ul class="page-header__column--submenu-help">
-                <li class="page-header__column--submenu-link">
-                  <a href="https://pokupo.ru/faq">
-                    <span class="link-wrapper">Вопросы и ответы</span>
-                  </a>
+                <li class="submenu__item with-submenu">
+                    <a href="https://help.pokupo.ru/" target="" class="">
+                        <span>Техническая поддержка</span>
+                    </a>
+                    <ul class="submenu">
+                    </ul>
                 </li>
-                <li class="page-header__column--submenu-link">
-                  <a class="page-header__column--submenu-active" href="index.html">
-                    <span class="link-wrapper">Курс обучения</span>
-                  </a>
-                </li>
-                <li class="page-header__column--submenu-link">
-                  <a href="https://help.pokupo.ru/" target="_blank">
-                    <span class="link-wrapper">Техническая поддержка</span>
-                  </a>
-                </li>
-              </ul> -->
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <!-- <div class="page-header__column page-header__column--search">
-        <button class="header-icon header-icon--search">Search</button>
-      </div> -->
-      <div class="page-header__column page-header__column--login-seller">
-        <!-- <a href="https://seller.pokupo.ru/login" class="header-icon header-icon--login" title="Кабинет продавца">Login seller</a> -->
-        <a href="https://seller.pokupo.ru/login" class="header-icon header-icon--login" title="Кабинет продавца"></a>
-      </div>
-      <div class="page-header__column page-header__column--registration-seller">
-        <a href="https://pokupo.ru/partners#/registration_seller/" class="header-icon--registration"><span>Открыть магазин</span></a>
-      </div>
-      <div class="page-header__line"></div>
-    </div>
-    <!-- <div class="page-header__column--submenu"></div> -->
-  </header>
+            </ul>
+        </li>
+    </ul>                
+    <div class="submenu-bg"></div>
+            </div>
+        </section>
+
+    <div class="footer-overlay"></div>
+  </div>
 
   <!-- Page content -->
   <section class="client-instructions">
@@ -258,7 +263,7 @@
                                 <div class="input-holder">
                                     <input id="iagree" name="iagree" type="checkbox" class="checkbox">
                                     <label for="iagree" class="block-label b-small-text iagree-label">Я принимаю условия <a href="https://pokupo.ru/rules" target="_blank">пользовательского соглашения</a>,
-                                        <a href="https://pokupo.ru/police" target="_blank">правил конфиденциальности</a> и&nbsp;<a href="https://pokupo.ru/refund" target="_blank">политики возврата платежей</a>
+                                        <a href="https://pokupo.ru/police" target="_blank">правил&nbsp;конфиденциальности</a> и&nbsp;<a href="https://pokupo.ru/refund" target="_blank">политики возврата платежей</a>
                                     </label>
                                     <div style="display: none; color: red; margin-top: 15px; font-weight: bold" class="iagree-req-message">Для регистрации необходимо согласиться с условиями</div>
                                 </div>
@@ -312,60 +317,80 @@
   <!-- Page footer -->
   <footer class="page-footer">
     <div class="container">
-      <div class="page-footer__columns">
-        <div class="page-footer__columns-left">
-          <div class="page-footer__column page-footer__column--left">
-            <ul>
-              <li class="contact-icon contact-icon--copyright">Pokupo.ru&nbsp;2014</li>
-              <li class="contact-icon contact-icon--email"><a href="mailto:support@pokupo.ru" title="E-mail">support@pokupo.ru</a></li>
-              <li class="contact-icon contact-icon--skype"><a href="skype:pokupo.ru?chat" onclick="return skypeCheck()" title="Skype">pokupo.ru</a></li>
-            </ul>
-          </div>
-          <div class="page-footer__column page-footer__column--center">
-            <ul>
-              <li><a href="https://help.pokupo.ru/knowledgebase.php" title="База знаний">База знаний</a></li>
-              <li><a href="https://help.pokupo.ru/" title="Техническая поддержка">Техническая поддержка</a></li>
-              <li><a href="https://pokupo.ru/sitemap" title="Карта сайта">Карта сайта</a></li>
-            </ul>
-          </div>
+      <div class="columns">
+        <div class="first column">
+            <div class="content">
+                <ul>
+                    <li><span class="contact"><i class="contact-icon copyright"></i>Pokupo.ru&nbsp;2014</span>
+                    </li>
+                    <li><a href="mailto:support@pokupo.ru" title="E-Mail" class="contact"><i class="contact-icon email"></i>support@pokupo.ru</a>
+                    </li>
+                    <li><a href="skype:pokupo.ru?chat" onclick="return skypeCheck()" title="Skype" class="contact"><i class="contact-icon skype"></i>pokupo.ru</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="page-footer__columns-right">
-          <div class="page-footer__column page-footer__column--sm">
-            <ul>
-              <li class="social-icon social-icon--vk"><a href="https://new.vk.com/pokupo" target="_blank" title="Вконтакте">Вконтакте</a></li>
-              <li class="social-icon social-icon--tw"><a href="https://twitter.com/pokupo_ru" target="_blank" title="Твиттер">Твиттер</a></li>
-              <li class="social-icon social-icon--blog"><a href="https://pokupo.ru/blog" target="_blank" title="Блог">Блог</a></li>
-              <li class="social-icon social-icon--hh"><a href="https://habrahabr.ru/users/pokupo/" target="_blank" title="Хабрахабр">Хабрахабр</a></li>
-              <li class="social-icon social-icon--gp"><a href="https://groups.google.com/forum/#!forum/pokupo_ru" target="_blank" title="Гугл-плюс">Гугл-плюс</a></li>
-            </ul>
-          </div>
-          <div class="page-footer__column page-footer__column--right">
-            <ul>
-              <li><a href="https://pokupo.ru/rules" title="Пользовательское соглашение">Пользовательское соглашение</a></li>
-              <li><a href="https://pokupo.ru/police" title="Правила конфиденциальности">Правила конфиденциальности</a></li>
-              <li><a href="https://pokupo.ru/refund" title="Политика возврата платежей">Политика возврата платежей</a></li>
-            </ul>
-          </div>
+        <div class="fourth column">
+            <div class="content">
+                <ul class="social">
+                    <li>
+                        <a href="https://vk.com/pokupo" target="_blank" title="Вконтакте" class="social__icon vk"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/pokupo_ru" target="_blank" title="Твиттер" class="social__icon tw"></a>
+                    </li>
+                    <li>
+                        <a href="http://pokupo.livejournal.com/" target="_blank" title="Живой журнал" class="social__icon lj"></a>
+                    </li>
+                    <li>
+                        <a href="http://habrahabr.ru/users/pokupo/" target="_blank" title="Хабрахабр" class="social__icon hh"></a>
+                    </li>
+                    <li>
+                        <a href="https://groups.google.com/d/forum/pokupo_ru" target="_blank" title="Гугл-плюс" class="social__icon gp"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="second column">
+            <div class="content">
+                <ul>
+                    <li>
+                        <a href="https://help.pokupo.ru/knowledgebase.php" title="База знаний">База знаний</a>
+                    </li>
+                    <li>
+                        <a href="https://help.pokupo.ru/" title="Техническая поддержка">Техническая поддержка</a>
+                    </li>
+                    <li>
+                        <a href="https://promodev.pokupo.ru/sitemap" title="Оставить отзыв">Карта сайта</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="third column">
+            <div class="content">
+                <ul>
+                    <li>
+                        <a href="https://promodev.pokupo.ru/rules" title="Пользовательское соглашение">Пользовательское соглашение</a>
+                    </li>
+                    <li>
+                        <a href="https://promodev.pokupo.ru/police" title="Правила конфиденциальности"> Правила конфиденциальности</a>
+                    </li>
+                    <li>
+                        <a href="https://promodev.pokupo.ru/refund" title="Политика возврата платежей"> Политика возврата платежей</a>
+                    </li>
+                </ul>
+            </div>
         </div>
       </div>
-      <!-- <div class="page-footer__payment-system">
-        <a class="payment-system__item" href="#" title="PayU"><img src="images/logo/payu.png" alt="PayU"></a>
-        <a class="payment-system__item" href="#" title="Visa"><img src="images/logo/visa.png" alt="Visa"></a>
-        <a class="payment-system__item" href="#" title="Verified by Visa"><img src="images/logo/by-visa.png" alt="Verified by Visa"></a>
-        <a class="payment-system__item" href="#" title="MasterCard"><img src="images/logo/mastercard.png" alt="MasterCard"></a>
-        <a class="payment-system__item" href="#" title="MasterCard SecureCode"><img src="images/logo/mastercard-sc.png" alt="MasterCard SecureCode"></a>
-        <a class="payment-system__item" href="#" title="WebMoney"><img src="images/logo/webmoney.png" alt="WebMoney"></a>
-        <a class="payment-system__item" href="#" title="Qiwi"><img src="images/logo/qiwi.png" alt="Qiwi"></a>
-        <a class="payment-system__item" href="#" title="Евросеть"><img src="images/logo/euroset.png" alt="Евросеть"></a>
-        <a class="payment-system__item" href="#" title="Связной"><img src="images/logo/svyaznoy.png" alt="Связной"></a>
-      </div> -->
     </div>
   </footer>
 
-  <!-- <script src="scripts/jquery-ui.js"></script>
+  <script src="scripts/jquery-ui.js"></script>
   <script src="scripts/jquery-1.js"></script>
   <script src="scripts/jquery.colorbox-min.js"></script>
   <script src="scripts/jquery.multiple.select.js"></script>
-  <script src="scripts/i18n/jquery.ui.datepicker-ru.js"></script> -->
+  <script src="scripts/i18n/jquery.ui.datepicker-ru.js"></script>
+  <script src="scripts/main.js"></script>
+
 </body>
 </html>
