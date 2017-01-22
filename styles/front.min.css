@@ -565,7 +565,7 @@ ul.checked li:before {
     left: -44px;
     width: 29px;
     height: 26px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -858px -356px
 }
 
@@ -942,7 +942,7 @@ ul.with-bullets li {
 }
 
 .btn-circle--drop:before,a.btn-circle--drop:before {
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -348px -119px
 }
 
@@ -951,17 +951,17 @@ ul.with-bullets li {
 }
 
 .btn-circle--drop:hover:before,a.btn-circle--drop:hover:before {
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -342px -142px
 }
 
 .btn-circle--drop:active:before,a.btn-circle--drop:active:before {
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -325px -119px
 }
 
 .btn-circle--drop.btn-circle--white:before,a.btn-circle--drop.btn-circle--white:before {
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -342px -142px
 }
 
@@ -970,12 +970,12 @@ ul.with-bullets li {
 }
 
 .btn-circle--drop.btn-circle--white:active:before,a.btn-circle--drop.btn-circle--white:active:before {
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -371px -119px
 }
 
 .btn-circle--drop.btn-circle--orange:before,a.btn-circle--drop.btn-circle--orange:before {
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -296px -142px
 }
 
@@ -984,7 +984,7 @@ ul.with-bullets li {
 }
 
 .btn-circle--drop.btn-circle--orange:active:before,.btn-circle--drop.btn-circle--orange:hover:before,a.btn-circle--drop.btn-circle--orange:active:before,a.btn-circle--drop.btn-circle--orange:hover:before {
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -319px -142px
 }
 
@@ -1067,14 +1067,14 @@ i.icon:before {
 .btn:active i.icon.icon-store:before,.btn:hover i.icon.icon-store:before {
     width: 44px;
     height: 40px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -117px -164px
 }
 
 .icon-search:before {
     width: 30px;
     height: 30px;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -80px -184px
 }
 
@@ -1086,13 +1086,13 @@ i.icon:before {
 .icon-cart:before {
     width: 24px;
     height: 20px;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -264px 0
 }
 
 .icon-cart--small:before,.icon-catalog:before {
     width: 19px;
-    background-image: url(/themes/default/default/images/sprite.png)
+    background-image: url(../images/sprite2.png)
 }
 
 .icon-cart--small {
@@ -1123,7 +1123,7 @@ i.icon:before {
 .icon-menu:before {
     width: 13px;
     height: 12px;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -356px -187px
 }
 
@@ -1135,7 +1135,7 @@ i.icon:before {
 .icon-reload:before {
     width: 24px;
     height: 22px;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -80px -222px
 }
 
@@ -1147,7 +1147,7 @@ i.icon:before {
 .icon-download:before {
     width: 9px;
     height: 17px;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -59px -254px
 }
 
@@ -1159,7 +1159,7 @@ i.icon:before {
 .icon-addmail:before {
     width: 25px;
     height: 19px;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: 0 -254px
 }
 
@@ -1556,7 +1556,7 @@ section.search.promo {
     width: 8px;
     height: 11px;
     margin-right: 5px;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -377px -187px
 }
 
@@ -1704,7 +1704,7 @@ section.video {
     left: 114px;
     width: 53px;
     height: 44px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -450px -782px
 }
 
@@ -1714,7 +1714,7 @@ section.video {
     left: 280px;
     width: 41px;
     height: 52px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -404px -148px
 }
 
@@ -1724,7 +1724,7 @@ section.video {
     left: 280px;
     width: 44px;
     height: 47px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -282px -782px
 }
 
@@ -1732,7 +1732,7 @@ section.video {
     margin: -22px 0 0 -25px;
     width: 50px;
     height: 44px;
-    background-image: url(/themes/default/default/images/main_sprite.png)
+    background-image: url(../images/sprite.png)
 }
 
 .video .b-video-trigger .icon__coins {
@@ -1753,7 +1753,7 @@ section.video {
     left: -52px;
     width: 45px;
     height: 52px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -453px -148px
 }
 
@@ -2399,7 +2399,7 @@ body.vjs-full-window {
 .benefits-slider .benefit i.complex,.benefits-slider .benefit i.open,.benefits-slider .benefit i.profit,.benefits-slider .benefit i.simple,.benefits-slider .benefit i.universal {
     width: 120px;
     height: 120px;
-    background-image: url(/themes/default/default/images/main_sprite.png)
+    background-image: url(../images/sprite.png)
 }
 
 .benefits-slider .benefit i {
@@ -2499,33 +2499,33 @@ body.vjs-full-window {
 
 .benefits-slider__ctrl-slides-left label {
     left: 0;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -132px -92px
 }
 
 .benefits-slider__ctrl-slides-left label:hover {
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -224px 0
 }
 
 .benefits-slider__ctrl-slides-left label:active {
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -40px -184px
 }
 
 .benefits-slider__ctrl-slides-right label {
     right: 0;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: 0 -184px
 }
 
 .benefits-slider__ctrl-slides-right label:hover {
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -92px -92px
 }
 
 .benefits-slider__ctrl-slides-right label:active {
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -184px 0
 }
 
@@ -2743,7 +2743,7 @@ body.vjs-full-window {
 .conditions__circle .icon.goods,.conditions__circle .icon.site {
     width: 104px;
     height: 104px;
-    background-image: url(/themes/default/default/images/main_sprite.png)
+    background-image: url(../images/sprite.png)
 }
 
 .conditions__circle {
@@ -2779,7 +2779,7 @@ body.vjs-full-window {
     right: -40px;
     width: 23px;
     height: 18px;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -264px -136px
 }
 
@@ -2796,7 +2796,7 @@ body.vjs-full-window {
 .conditions__circle.no .icon:after {
     width: 16px;
     height: 16px;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -268px -254px
 }
 
@@ -3157,7 +3157,7 @@ body.vjs-full-window {
 .steps li i.add,.steps li i.code,.steps li i.earn,.steps li i.get,.steps li i.send,.steps li i.signin {
     width: 84px;
     height: 84px;
-    background-image: url(/themes/default/default/images/main_sprite.png)
+    background-image: url(../images/sprite.png)
 }
 
 .steps li:first-child {
@@ -3307,7 +3307,7 @@ ul.clients li i.client.sberbank {
 }
 
 .howitworks__steps .hiw-step__add:before,.howitworks__steps .hiw-step__create:before,.howitworks__steps .hiw-step__go:before,.howitworks__steps .hiw-step__register:before {
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     width: 84px;
     height: 84px
 }
@@ -3355,7 +3355,7 @@ ul.clients li i.client.sberbank {
 
 .howitworks__steps .hiw-step__finish:before {
     top: 40px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -637px -282px;
     width: 84px;
     height: 84px
@@ -3421,7 +3421,7 @@ ul.clients li i.client.sberbank {
     right: 75px;
     width: 35px;
     height: 34px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -858px -170px
 }
 
@@ -3473,7 +3473,7 @@ section.partners {
 }
 
 .partnership .hg.with-icon.icon__chair:before,.partnership .with-icon.icon__chair.hg:before,.partnership hgroup.with-icon.icon__chair:before {
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -384px -361px
 }
 
@@ -3490,7 +3490,7 @@ section.partners {
 }
 
 .partnership .hg.with-icon.icon__note:before,.partnership .with-icon.icon__note.hg:before,.partnership hgroup.with-icon.icon__note:before {
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -379px -693px
 }
 
@@ -3564,7 +3564,7 @@ section.partners {
 }
 
 .popup.join header h1.with-icon:before {
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -92px -601px;
     width: 84px;
     height: 84px;
@@ -3838,7 +3838,7 @@ textarea {
     margin-right: 10px;
     width: 31px;
     height: 25px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -858px -390px
 }
 
@@ -3943,7 +3943,7 @@ textarea {
 .register .btn-lg.btn-red i.icon-store:before {
     width: 44px;
     height: 40px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -221px -164px
 }
 
@@ -3960,7 +3960,7 @@ textarea {
 .register .btn-lg.btn-red:active i.icon.icon-store:before,.register .btn-lg.btn-red:hover i.icon.icon-store:before {
     width: 44px;
     height: 40px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -169px -164px
 }
 
@@ -4032,42 +4032,42 @@ textarea {
 .sign-in .btn-group-item a .icon-vk {
     width: 18px;
     height: 22px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -858px -423px
 }
 
 .sign-in .btn-group-item a .icon-google {
     width: 31px;
     height: 28px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -858px -212px
 }
 
 .sign-in .btn-group-item a .icon-zpay {
     width: 37px;
     height: 38px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -608px -782px
 }
 
 .sign-in .btn-group-item a:hover .icon-vk {
     width: 18px;
     height: 22px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -858px -453px
 }
 
 .sign-in .btn-group-item a:hover .icon-google {
     width: 31px;
     height: 28px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -858px -248px
 }
 
 .sign-in .btn-group-item a:hover .icon-zpay {
     width: 37px;
     height: 38px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -563px -782px
 }
 
@@ -4088,21 +4088,21 @@ textarea {
 .sign-in .btn-group-item.disabled:hover .icon-vk {
     width: 18px;
     height: 22px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -858px -423px
 }
 
 .sign-in .btn-group-item.disabled:hover .icon-google {
     width: 31px;
     height: 28px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -858px -212px
 }
 
 .sign-in .btn-group-item.disabled:hover .icon-zpay {
     width: 37px;
     height: 38px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -608px -782px
 }
 
@@ -4113,7 +4113,7 @@ textarea {
 }
 
 .person__photo.person__photo--female:after,.person__photo.person__photo--male:after,.split__goal .quote blockquote:after,.split__goal h2 i.icon,.split__mission blockquote:after,.split__mission h2 i.icon,section.howto .with-icon:before,section.price .with-icon:before,section.start .with-icon:before {
-    background-image: url(/themes/default/default/images/main_sprite.png)
+    background-image: url(../images/sprite.png)
 }
 
 .split .quote {
@@ -4352,7 +4352,7 @@ section.price .with-icon:before {
 .our-team .owl-next,.our-team .owl-prev {
     width: 32px;
     height: 62px;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     top: 85px
 }
 
@@ -4407,7 +4407,7 @@ section.price .with-icon:before {
     top: 0;
     width: 209px;
     height: 101px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -156px -489px
 }
 
@@ -4488,7 +4488,7 @@ section.price .with-icon:before {
     margin: -12px 0 0 -21px;
     width: 42px;
     height: 25px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: 0 -854px
 }
 
@@ -4500,14 +4500,14 @@ section.price .with-icon:before {
 .btn-social__vk:hover i.icon:before {
     width: 42px;
     height: 25px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -50px -854px
 }
 
 .btn-social__gp i.icon:before,.btn-social__gp:hover i.icon:before {
     width: 31px;
     height: 28px;
-    background-image: url(/themes/default/default/images/main_sprite.png)
+    background-image: url(../images/sprite.png)
 }
 
 .btn-social__gp {
@@ -4546,7 +4546,7 @@ section.price .with-icon:before {
     margin: -21px 0 0 -18px;
     width: 35px;
     height: 41px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -729px -190px
 }
 
@@ -4558,14 +4558,14 @@ section.price .with-icon:before {
 .btn-social__lj:hover i.icon:before {
     width: 35px;
     height: 41px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -814px -347px
 }
 
 .btn-social__tw i.icon:before,.btn-social__tw:hover i.icon:before {
     width: 40px;
     height: 28px;
-    background-image: url(/themes/default/default/images/main_sprite.png)
+    background-image: url(../images/sprite.png)
 }
 
 .btn-social__tw {
@@ -4715,7 +4715,7 @@ section.price .with-icon:before {
 .slider-control.next i.icon,.slider-control.next:hover i.icon,.slider-control.prev i.icon,.slider-control.prev:hover i.icon {
     width: 32px;
     height: 62px;
-    background-image: url(/themes/default/default/images/sprite.png)
+    background-image: url(../images/sprite2.png)
 }
 
 .slider-control i.icon {
@@ -4776,14 +4776,14 @@ a.with-icon.with-icon--print:before {
     left: 1px;
     width: 18px;
     height: 15px;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -371px -48px
 }
 
 a.with-icon.with-icon--file:before {
     width: 12px;
     height: 15px;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -351px -48px
 }
 
@@ -5028,7 +5028,7 @@ section.rates {
 
 .rates_slide__ctrl-left label {
     left: 0;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -184px -70px
 }
 
@@ -5039,18 +5039,18 @@ section.rates {
 }
 
 .rates_slide__ctrl-left label:hover {
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -40px -184px
 }
 
 .rates_slide__ctrl-right label {
     right: 0;
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -224px -70px
 }
 
 .rates_slide__ctrl-right label:hover {
-    background-image: url(/themes/default/default/images/sprite.png);
+    background-image: url(../images/sprite2.png);
     background-position: -184px 0
 }
 
@@ -5198,7 +5198,7 @@ section.rates {
 .startup .grade-1 .icon,.startup .grade-2 .icon,.startup .grade-3 .icon {
     width: 92px;
     height: 81px;
-    background-image: url(/themes/default/default/images/main_sprite.png)
+    background-image: url(../images/sprite.png)
 }
 
 .startup .rate__icon .icon {
@@ -5229,7 +5229,7 @@ section.rates {
 .business .grade-1 .icon,.business .grade-2 .icon,.business .grade-3 .icon {
     width: 127px;
     height: 87px;
-    background-image: url(/themes/default/default/images/main_sprite.png)
+    background-image: url(../images/sprite.png)
 }
 
 .business .rate__icon .icon {
@@ -5260,7 +5260,7 @@ section.rates {
 .company .grade-1 .icon,.company .grade-2 .icon,.company .grade-3 .icon {
     width: 186px;
     height: 140px;
-    background-image: url(/themes/default/default/images/main_sprite.png)
+    background-image: url(../images/sprite.png)
 }
 
 .company .rate__icon .icon {
@@ -5315,7 +5315,7 @@ hr.divider:after {
     top: 50%;
     width: 85px;
     height: 8px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -384px -457px
 }
 
@@ -5331,7 +5331,7 @@ hr.divider:after {
     margin-left: -74px;
     width: 148px;
     height: 104px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: 0 -489px
 }
 
@@ -5340,7 +5340,7 @@ hr.divider:after {
     display: block;
     left: 50%;
     top: 0;
-    background-image: url(/themes/default/default/images/main_sprite.png)
+    background-image: url(../images/sprite.png)
 }
 
 .seo-frontpage .with-icon {
@@ -5415,7 +5415,7 @@ hr.divider:after {
     display: block;
     top: 50%;
     left: 50%;
-    background-image: url(/themes/default/default/images/main_sprite.png)
+    background-image: url(../images/sprite.png)
 }
 
 .seo-icon.partners:after {
@@ -5450,7 +5450,7 @@ hr.divider:after {
     height: 76px;
     margin-left: -42px;
     margin-top: -38px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -287px -693px
 }
 
@@ -5468,7 +5468,7 @@ hr.divider:after {
     height: 50px;
     margin-left: -30px;
     margin-top: -25px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -214px -782px
 }
 
@@ -5486,7 +5486,7 @@ hr.divider:after {
     height: 60px;
     margin-left: -31px;
     margin-top: -30px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -144px -782px
 }
 
@@ -5508,7 +5508,7 @@ hr.divider:after {
     height: 54px;
     margin-left: -40.5px;
     margin-top: -27px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -315px -148px
 }
 
@@ -5517,7 +5517,7 @@ hr.divider:after {
     height: 71px;
     top: -10px;
     right: -30px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -580px -693px
 }
 
@@ -5528,7 +5528,7 @@ hr.divider:after {
     height: 64px;
     top: -10px;
     right: -10px;
-    background-image: url(/themes/default/default/images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     display: block
 }
 
@@ -7093,7 +7093,7 @@ body.locked {
         left: 18px;
         width: 30px;
         height: 30px;
-        background-image: url(/themes/default/default/images/sprite.png);
+        background-image: url(../images/sprite2.png);
         background-position: -118px -184px
     }
 
@@ -8290,46 +8290,3 @@ body.locked {
 }
 
 
-/* @media screen and (max-width: 1024px) {
-
-  .container {
-    max-width: 660px;
-  }
-
-}
-
-
-@media screen and (max-width: 749px) {
-
-  .container {
-    max-width: 360px;
-  }
-
-  input[type="text"], 
-  input[type="email"], 
-  input[type="tel"], 
-  input[type="password"], 
-  textarea {
-    max-width: 300px;
-    padding: 14px 15px;
-  }
-
-  .tooltip__trigger {
-    display: none;
-  }
-
-  .input-holder input[type="checkbox"]+label, 
-  .input-holder input[type="radio"]+label {
-    padding-top: 15px;
-    padding-left: 10px;
-  }
-
-  input[type="checkbox"]+label:before {
-    margin: -3px 4px 0 0;
-  }
-
-  .b-wizard {
-    padding-bottom: 90px;
-  }
-
-}  */

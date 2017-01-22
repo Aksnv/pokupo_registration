@@ -423,7 +423,7 @@ input[type='radio']+label.block-label:before {
 
 input[type="checkbox"]+label:before {
   content: "";
-  display: inline-block;
+  /* display: inline-block; */
   vertical-align: middle;
   height: 24px;
   width: 27px;
@@ -604,3 +604,47 @@ input[type="checkbox"]:checked:active+label:before {
   }
 
 }
+
+@media screen and (max-width: 1024px) {
+
+  .container {
+    max-width: 660px;
+  }
+
+}
+
+
+@media screen and (max-width: 749px) {
+
+  .container {
+    max-width: 360px;
+  }
+
+  input[type="text"], 
+  input[type="email"], 
+  input[type="tel"], 
+  input[type="password"], 
+  textarea {
+    max-width: 300px;
+    padding: 14px 15px;
+  }
+
+  .tooltip__trigger {
+    display: none;
+  }
+
+  .input-holder input[type="checkbox"]+label, 
+  .input-holder input[type="radio"]+label {
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+
+  input[type="checkbox"]+label:before {
+    margin: -3px 4px 0 0;
+  }
+
+  .b-wizard {
+    padding-bottom: 90px;
+  }
+
+}  
