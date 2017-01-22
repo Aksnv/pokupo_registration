@@ -173,7 +173,7 @@ input[type="radio"]+label:after {
   display: block;
   width: 88px;
   height: 100px;
-  background-image: url(../images/main_sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -552px -847px;
 }
 
@@ -185,7 +185,7 @@ input[type="radio"]+label:after {
   display: block;
   width: 68px;
   height: 88px;
-  background-image: url(../images/main_sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -648px -847px;
 }
 
@@ -560,7 +560,7 @@ input[type="checkbox"]:checked:active+label:before {
     display: block;
     width: 44px;
     height: 50px;
-    background-image: url(../images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -728px -831px;
   }
 
@@ -577,7 +577,7 @@ input[type="checkbox"]:checked:active+label:before {
     display: block;
     width: 34px;
     height: 44px;
-    background-image: url(../images/main_sprite.png);
+    background-image: url(../images/sprite.png);
     background-position: -727px -895px;
   }
   

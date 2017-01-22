@@ -162,11 +162,11 @@ $(document).ready(function() {
         checkTypeSeller(seller_type);
     }
     function checkTypeSeller(type) {
-        $("." + type).css({'border' : '3px solid #099033'});
+        /*$("." + type).css({'border' : '3px solid #099033'});*/
         if (type == 'company') {
-            $(".person").css({'border' : '2px solid #CCCCCC'});
+            /*$(".person").css({'border' : '2px solid #CCCCCC'});*/
         } else {
-            $(".company").css({'border' : '2px solid #CCCCCC'});
+            /*$(".company").css({'border' : '2px solid #CCCCCC'});*/
         }
     }
     setData();

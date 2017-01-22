@@ -4187,7 +4187,7 @@ body.modal-open {
 }
 
 .main>section {
-    padding: 40px 0
+    /* padding: 40px 0 */
 }
 
 .footer-overlay {
@@ -18553,7 +18553,8 @@ textarea:focus {
 }
 
 .icon-store--small:before {
-    background-image: url("../../../images/sprite.png");
+    /* background-image: url("../../../images/sprite.png"); */
+    background-image: url("../images/sprite.png");
     background-position: -858px -483px
 }
 
@@ -18652,92 +18653,92 @@ textarea:focus {
 }
 
 .footer .social .social__icon.vk {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -680px -558px
 }
 
 .footer .social .social__icon.fb {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -696px -782px
 }
 
 .footer .social .social__icon.tw {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -729px -282px
 }
 
 .footer .social .social__icon.lj {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -723px -558px
 }
 
 .footer .social .social__icon.hh {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -729px -374px
 }
 
 .footer .social .social__icon.gp {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -858px 0
 }
 
 .footer .social .social__icon:hover.vk {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -637px -558px
 }
 
 .footer .social .social__icon:hover.fb {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -782px -782px
 }
 
 .footer .social .social__icon:hover.tw {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -729px -509px
 }
 
 .footer .social .social__icon:hover.lj {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -729px -417px
 }
 
 .footer .social .social__icon:hover.hh {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -772px -648px
 }
 
 .footer .social .social__icon:hover.gp {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -653px -782px
 }
 
 .footer .social .social__icon:active.vk {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -729px -466px
 }
 
 .footer .social .social__icon:active.fb {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -739px -782px
 }
 
 .footer .social .social__icon:active.tw {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -815px -648px
 }
 
 .footer .social .social__icon:active.lj {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -729px -239px
 }
 
 .footer .social .social__icon:active.hh {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -729px -325px
 }
 
 .footer .social .social__icon:active.gp {
-    background-image: url("../../../images/sprite.png");
+    background-image: url("../images/sprite.png");
     background-position: -858px -43px
 }
 
@@ -18750,7 +18751,8 @@ textarea:focus {
 }
 
 .header .logo {
-    background: url("../../../images/logo/logo.png") 50% 50% no-repeat
+    /* background: url("../../../images/logo/logo.png") 50% 50% no-repeat */
+    background: url("../images/logo/logo.png") 50% 50% no-repeat
 }
 }
 
@@ -22189,7 +22191,8 @@ h2.event__title {
 }
 
 .icon-user {
-    background: url("../../../images/sprite2.png");
+    /* background: url("../../../images/sprite2.png"); */
+    background: url("../images/sprite2.png");
     background-position: -210px -222px
 }
 
