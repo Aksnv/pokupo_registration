@@ -12,7 +12,7 @@ section.register-user {
 
 /* Инлайн стили в коде html */
 .register-user {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 /* END - Инлайн стили в коде html */
 
@@ -56,7 +56,7 @@ section.register-user {
 
 .b-wizard {
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 90px;
 }
 
 /* Стили из файла tiles-box.css */
@@ -248,7 +248,7 @@ input[type="radio"]+label:after {
 }
 
 .b-wizard__step-content {
-  margin-top: 35px;
+  margin-top: 31px;
 }
 
 .input-holder {
@@ -391,7 +391,7 @@ input[type='checkbox']+label.block-label,
 input[type='radio']+label.block-label {
   display: block;
   text-align: left;
-  margin-left: 30px;
+  margin-left: 45px;
 }
 
 .input-holder input[type="checkbox"]+label, 

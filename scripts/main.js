@@ -369,3 +369,44 @@ $(document).ready(function() {
         }
     });
 });
+
+            //  Scroll to top
+
+           window.onload = function() {
+                var scrollUp = document.getElementsByClassName('back-to-top');
+
+                scrollUp[0].addEventListener("mouseover", function() { // добавить прозрачность
+                        scrollUp[0].style.opacity="0.5";
+                        scrollUp[0].style.filter ="alpha(opacity=50)";
+                    });
+
+                scrollUp[0].addEventListener("mouseout", function() { //убрать прозрачность
+                    scrollUp[0].style.opacity = "0.8";
+                    scrollUp[0].style.filter  = 'alpha(opacity=80)';
+                });
+
+                scrollUp[0].addEventListener("click", function() { //обработка клика
+                    var t;
+                    function up() {
+                        var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                        var top = Math.max(document.body.scrollTop,scrollTop);
+                        if(top > 0) {
+                            window.scrollBy(0,((top+100)/-10));
+                            t = setTimeout('up()',20);
+                        } else clearTimeout(t);
+                        return false;
+                    }
+                    //window.scrollTo(0,0);
+                });
+
+                // show button
+
+                window.addEventListener("scroll", function () { // при скролле показывать и прятать блок
+                    if ( window.pageYOffset > 0 ) {
+                        scrollUp[0].style.display = 'block';
+                    } else {
+                        scrollUp[0].style.display = 'none';
+                    }
+                });
+
+            };
