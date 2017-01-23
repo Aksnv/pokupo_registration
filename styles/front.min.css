@@ -1596,11 +1596,10 @@ section.subheader.subheader--min .menu-login .not-logged-in a.menu-login__login:
 .icon-user {
     width: 20px;
     height: 20px;
-    top: -4px;
+    /* top: -4px; */
     padding: 10px;
     margin-right: 5px;
     background: url(../images/sprite2.png);
-    background-repeat: no-repeat;
     background-position: -210px -222px
 }
 
@@ -6267,7 +6266,7 @@ body.locked {
 
     .icon-user {
         margin-right: 22px;
-        background-position: -210px -218px;
+        background-position: -210px -222px;
     }
 
     label.search-btn-label {
