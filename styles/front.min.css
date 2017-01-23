@@ -6108,6 +6108,10 @@ body.locked {
         transform: scale(.7)
     }
 
+    .footer {
+        padding-bottom: 90px;
+    }
+
     .footer .column {
         width: 33%
     }
@@ -6117,7 +6121,8 @@ body.locked {
     }
 
     .footer .column.first {
-        left: 0
+        left: 0;
+        margin-bottom: 20px;
     }
 
     .footer .column.second {
@@ -6130,7 +6135,9 @@ body.locked {
 
     .footer .column.fourth {
         left: 66.667%;
-        margin-top: 65px
+        margin-top: 65px;
+        position: absolute;
+        top: 145px;
     }
 }
 
@@ -8312,6 +8319,34 @@ body.locked {
         top: 107px;
     }
 
+    .footer {
+        text-align: center;
+    }
+
+    .footer .columns .content {
+        border-right: none;
+    }
+
+    .footer .contact-icon.copyright,
+    .footer .contact-icon.email,
+    .footer .contact-icon.skype {
+        position: absolute;
+    }
+
+    .footer .contact-icon.copyright {
+        left: 110px;
+    }
+
+    .footer .contact-icon.email {
+        top: 23px;
+        left: 95px;
+    }
+
+    .footer .contact-icon.skype {
+        top: 44px;
+        left: 125px;
+    }
+
 }
 
 @media screen and (max-width: 360px) {
@@ -8331,6 +8366,18 @@ body.locked {
 
     .icon-user {
         margin-right: 12px;
+    }
+
+    .footer .contact-icon.copyright {
+        left: 84px;
+    }
+
+    .footer .contact-icon.email {
+        left: 70px;
+    }
+
+    .footer .contact-icon.skype {
+        left: 100px;
     }
 }
 

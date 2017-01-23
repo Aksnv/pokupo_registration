@@ -644,7 +644,7 @@ input[type="checkbox"]:checked:active+label:before {
   }
 
   .b-wizard {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 
   .register-user {
