@@ -583,7 +583,7 @@ input[type="checkbox"]:checked:active+label:before {
   
   input[type="radio"]+label:after {
     top: 33px;
-    /* left: 54px; */
+    left: 54px;
   }
 
   input[type="radio"]+label:before {
@@ -686,10 +686,12 @@ input[type="checkbox"]:checked:active+label:before {
   }
 
   input[type="radio"]+label:before {
+    top: 23px;
     left: 25px;
   }
 
   input[type="radio"]+label:after {
+    top: 23px;
     left: 34px;
   }
 
