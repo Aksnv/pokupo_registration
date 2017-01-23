@@ -653,6 +653,17 @@ input[type="checkbox"]:checked:active+label:before {
   
   .container {
     max-width: 320px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .tilesBox .tileElement {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .showLink {
+    width: 300px;
   }
 
 }
