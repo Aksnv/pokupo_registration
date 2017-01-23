@@ -107,12 +107,68 @@ input[type="radio"]:checked:active+label:before {
     background-position: -72px 0
 } */
 
-input[type="radio"]:checked+label:after {
+
+
+
+/* input[type="radio"]:checked+label:after {
   background-color: #02903d;
-}
+} */
 
 
-input[type="radio"]+label:before {
+
+
+
+/* input[type="radio"]+label:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 36px;
+  width: 36px;
+  margin: -4px 6px 0 0; */
+
+
+  /* background-image: url("../../../images/ui/pokupo-ui-radio.png"); */
+  /* background-image: url("../images/ui/pokupo-ui-radio.png");
+  background-repeat: no-repeat;
+  background-position: 0 0; */
+
+
+/*   border-radius: 50%;
+background-color: #ffffff;
+
+position: absolute;
+top: 211px;
+left: 100px;
+z-index: 1;
+} */
+
+/* input[type="radio"]+label:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 18px;
+  width: 18px;
+  margin: -4px 6px 0 0; */
+
+
+  /* background-image: url("../../../images/ui/pokupo-ui-radio.png"); */
+  /* background-image: url("../images/ui/pokupo-ui-radio.png");
+  background-repeat: no-repeat;
+  background-position: 0 0; */
+
+
+/*   border-radius: 50%;
+background-color: #ffffff;
+
+position: absolute;
+top: 220px;
+left: 109px;
+z-index: 1;
+} */
+
+/* Альтернативное решение */
+#type_seller_company+label:before,
+#type_seller_person+label:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -132,7 +188,8 @@ input[type="radio"]+label:before {
   z-index: 1;
 }
 
-input[type="radio"]+label:after {
+#type_seller_company+label:after,
+#type_seller_person+label:after {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -150,6 +207,12 @@ input[type="radio"]+label:after {
   top: 220px;
   left: 109px;
   z-index: 1;
+}
+
+
+#type_seller_company:checked+label:after,
+#type_seller_person:checked+label:after {
+  background-color: #02903d;
 }
 
 /* Стили из файла tiles-box.css */
@@ -567,8 +630,6 @@ input[type="checkbox"]:checked:active+label:before {
   .tilesBox .company {
     /* background-image: url("../images/item_21.png");
     background-position: 80px 13px; */
-    position: relative;
-    z-index: 0;
   }
 
   .company::before {
@@ -583,15 +644,29 @@ input[type="checkbox"]:checked:active+label:before {
     background-position: -727px -895px;
   }
   
-  input[type="radio"]+label:after {
+  /* input[type="radio"]+label:after {
     top: 33px;
     left: 54px;
   }
-
+  
   input[type="radio"]+label:before {
     top: 23px;
     left: 45px;
-  }
+  } */
+
+#type_seller_company+label:after,
+#type_seller_person+label:after {
+  top: 33px;
+    left: 54px;
+}
+
+
+#type_seller_company+label:before,
+#type_seller_person+label:before {
+  top: 23px;
+    left: 45px;
+}
+
 
   /* label[for="type_seller_person"],
   label[for="type_seller_company"] {
@@ -687,23 +762,22 @@ input[type="checkbox"]:checked:active+label:before {
     padding-left: 10px;
   }
 
-  input[type="radio"]+label:before {
+  /* input[type="radio"]+label:before {
     left: 25px;
   }
-
+  
   input[type="radio"]+label:after {
     left: 34px;
-  }
-
-  /* label[for="type_seller_company"]:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: '';
-    display: block;
-    width: 20px;
-    height: 20px;
-    background-color: yellow;
   } */
+
+  #type_seller_company+label:after,
+#type_seller_person+label:after {
+  left: 34px;
+}
+
+#type_seller_company+label:before,
+#type_seller_person+label:before {
+  left: 25px;
+}
 
 }
