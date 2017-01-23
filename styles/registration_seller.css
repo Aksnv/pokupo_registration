@@ -131,25 +131,29 @@ input[type="radio"]+label::before {
   z-index: 1;
 }
 
-input[type="radio"]+label::after {
+/* input[type="radio"]+label::after {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 18px;
   width: 18px;
-  margin: -4px 6px 0 0;
+  margin: -4px 6px 0 0; */
+
+
   /* background-image: url("../../../images/ui/pokupo-ui-radio.png"); */
   /* background-image: url("../images/ui/pokupo-ui-radio.png");
   background-repeat: no-repeat;
   background-position: 0 0; */
-  border-radius: 50%;
-  background-color: #ffffff;
 
-  position: absolute;
-  top: 220px;
-  left: 109px;
-  z-index: 1;
-}
+
+/*   border-radius: 50%;
+background-color: #ffffff;
+
+position: absolute;
+top: 220px;
+left: 109px;
+z-index: 1;
+} */
 
 input[type="radio"]+label[for="type_seller_company"]::after {
   content: "";
@@ -160,6 +164,22 @@ input[type="radio"]+label[for="type_seller_company"]::after {
   margin: -4px 6px 0 0;
   border-radius: 50%;
   background-color: yellow;
+
+  position: absolute;
+  top: 20px;
+  left: 119px;
+  z-index: 2;
+}
+
+input[type="radio"]+label[for="type_seller_person"]::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 18px;
+  width: 18px;
+  margin: -4px 6px 0 0;
+  border-radius: 50%;
+  background-color: red;
 
   position: absolute;
   top: 20px;
