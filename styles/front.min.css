@@ -1597,8 +1597,9 @@ section.subheader.subheader--min .menu-login .not-logged-in a.menu-login__login:
     width: 20px;
     height: 20px;
     top: -4px; 
-    padding: 8px;
+    padding: 10px;
     margin-right: 5px;
+    margin-top: 10px;
     background: url(../images/sprite2.png);
     background-position: -210px -222px
 }
