@@ -168,10 +168,10 @@ input[type="radio"]+label[for="type_seller_company"]::after {
   position: absolute;
   top: 20px;
   left: 119px;
-  z-index: 2;
+  z-index: 1;
 }
 
-input[type="radio"]+label[for="type_seller_person"]::after {
+/* input[type="radio"]+label[for="type_seller_person"]::after {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -184,8 +184,8 @@ input[type="radio"]+label[for="type_seller_person"]::after {
   position: absolute;
   top: 20px;
   left: 119px;
-  z-index: 2;
-}
+  z-index: 1;
+} */
 
 /* Стили из файла tiles-box.css */
 .tilesBox .person {
