@@ -109,6 +109,7 @@ input[type="radio"]:checked+label::after {
 
 input[type="radio"]+label {
   position: relative;
+  display: inline-block;
 }
 
 input[type="radio"]+label::before {
