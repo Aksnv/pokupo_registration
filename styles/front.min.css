@@ -7055,7 +7055,7 @@ body.locked {
     }
 
     .icon-user {
-        top: 20px;
+        top: 38px;
         margin-right: 20px;
         vertical-align: middle
     }
@@ -7910,7 +7910,7 @@ body.locked {
     }
 
     .icon-user {
-        top: 14px;
+        top: 29px;
         margin-right: 22px;
         vertical-align: middle
     }
@@ -8309,7 +8309,7 @@ body.locked {
     .page-header__line {
         display: block;
         position: absolute;
-        top: 117px;
+        top: 107px;
     }
 
 }
@@ -8318,6 +8318,7 @@ body.locked {
 
     .page-header__line {
         width: 300px;
+        top: 97px;
     }
     
     #toggleNav-ico+label {
