@@ -6108,10 +6108,6 @@ body.locked {
         transform: scale(.7)
     }
 
-    /* .footer {
-        padding-bottom: 90px;
-    } */
-
     .footer .column {
         width: 33%
     }
@@ -6136,8 +6132,6 @@ body.locked {
     .footer .column.fourth {
         left: 66.667%;
         margin-top: 65px;
-        /* position: absolute;
-        top: 145px; */
     }
 }
 
