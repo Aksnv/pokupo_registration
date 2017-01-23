@@ -1598,6 +1598,7 @@ section.subheader.subheader--min .menu-login .not-logged-in a.menu-login__login:
     padding: 10px;
     margin-right: 5px;
     background: url(../images/sprite2.png);
+    background-repeat: no-repeat;
     background-position: -210px -222px
 }
 
@@ -6130,7 +6131,7 @@ body.locked {
     }
 }
 
-@media screen and (max-width: 977px) {
+@media screen and (max-width: 1024px) {
     section.header {
         text-align:center
     }
@@ -6302,7 +6303,7 @@ body.locked {
     }
 }
 
-@media screen and (max-width: 977px) and (min-width:768px) {
+@media screen and (max-width: 1024px) and (min-width:768px) {
     #toggleNav {
         margin-right:323px
     }
@@ -7017,7 +7018,7 @@ body.locked {
     }
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 749px) {
     .register-wrapper .hg h1,.register-wrapper .hg h2.foremost,h2.foremost {
         font-size:35px;
         font-weight: 400
@@ -7049,7 +7050,7 @@ body.locked {
 
     .icon-user {
         top: 20px;
-        margin-right: 42px;
+        margin-right: 20px;
         vertical-align: middle
     }
 
@@ -7061,7 +7062,7 @@ body.locked {
     }
 
     label.search-btn-label {
-        right: 186px
+        right: 140px
     }
 
     .b-search {
@@ -7356,7 +7357,7 @@ body.locked {
     }
 }
 
-@media screen and (max-width: 639px) and (min-width:580px) {
+@media screen and (max-width: 749px) and (min-width:580px) {
     .benefits-slider {
         width:550px
     }
@@ -7482,7 +7483,7 @@ body.locked {
     }
 }
 
-@media screen and (max-width: 639px) and (min-width:480px) {
+@media screen and (max-width: 749px) and (min-width:480px) {
     .create-shop .btn-huge {
         -webkit-transform:scale(.8);
         -ms-transform: scale(.8);
