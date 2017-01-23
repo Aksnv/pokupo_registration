@@ -1594,6 +1594,8 @@ section.subheader.subheader--min .menu-login .not-logged-in a.menu-login__login:
 }
 
 .icon-user {
+    width: 20px;
+    height: 20px;
     top: -4px;
     padding: 10px;
     margin-right: 5px;
