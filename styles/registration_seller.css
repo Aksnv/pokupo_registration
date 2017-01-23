@@ -567,6 +567,8 @@ input[type="checkbox"]:checked:active+label:before {
   .tilesBox .company {
     /* background-image: url("../images/item_21.png");
     background-position: 80px 13px; */
+    position: relative;
+    z-index: 0;
   }
 
   .company::before {
@@ -686,13 +688,22 @@ input[type="checkbox"]:checked:active+label:before {
   }
 
   input[type="radio"]+label:before {
-    top: 23px;
     left: 25px;
   }
 
   input[type="radio"]+label:after {
-    top: 23px;
     left: 34px;
   }
+
+  /* label[for="type_seller_company"]:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+  } */
 
 }
