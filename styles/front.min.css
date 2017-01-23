@@ -6264,7 +6264,8 @@ body.locked {
     }
 
     .icon-user {
-        margin-right: 22px
+        margin-right: 22px;
+        background-position: -210px -218px;
     }
 
     label.search-btn-label {
