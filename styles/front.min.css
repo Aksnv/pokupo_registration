@@ -1570,7 +1570,7 @@ section.search.promo {
 
 .menu-login .logged-in {
     padding-right: 10px;
-    /* position: relative; */
+    position: relative; 
 }
 
 section.subheader .menu-login .not-logged-in a.menu-login__login:before {
@@ -6282,9 +6282,9 @@ body.locked {
 
     .icon-user {
         margin-right: 22px;
-        /* position: absolute;
+        position: absolute;
         top: 38px;
-        left: -30px; */
+        left: -30px; 
     }
 
     label.search-btn-label {
@@ -7069,7 +7069,7 @@ body.locked {
     }
 
     .icon-user {
-        /* top: 38px; */
+        top: 38px; 
         margin-right: 20px;
         vertical-align: middle
     }
@@ -7924,7 +7924,7 @@ body.locked {
     }
 
     .icon-user {
-        /* top: 29px; */
+        top: 29px; 
         margin-right: 22px;
         vertical-align: middle
     }
