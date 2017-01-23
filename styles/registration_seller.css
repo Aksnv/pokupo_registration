@@ -591,6 +591,11 @@ input[type="checkbox"]:checked:active+label:before {
     left: 45px;
   }
 
+  label[for="type_seller_person"],
+  label[for="type_seller_company"] {
+    position: relative;
+  }
+
   input[type="radio"]+label[for="type_seller_person"]:before {
     top: 13px;
     left: 45px;
