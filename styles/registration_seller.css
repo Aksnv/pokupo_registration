@@ -591,6 +591,11 @@ input[type="checkbox"]:checked:active+label:before {
     left: 45px;
   }
 
+  input[type="radio"]+label[for="type_seller_company"]:before {
+    top: 33px;
+    left: 45px;
+  }
+
   .showLink {
     padding-left: 8px;
   }
