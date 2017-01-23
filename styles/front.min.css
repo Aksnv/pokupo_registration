@@ -6108,9 +6108,9 @@ body.locked {
         transform: scale(.7)
     }
 
-    .footer {
+    /* .footer {
         padding-bottom: 90px;
-    }
+    } */
 
     .footer .column {
         width: 33%
@@ -6136,9 +6136,22 @@ body.locked {
     .footer .column.fourth {
         left: 66.667%;
         margin-top: 65px;
+        /* position: absolute;
+        top: 145px; */
+    }
+}
+
+@media screen and (max-width: 749px) {
+
+    .footer {
+        padding-bottom: 90px;
+    }
+
+    .footer .column.fourth {
         position: absolute;
         top: 145px;
     }
+
 }
 
 @media screen and (max-width: 1024px) {
