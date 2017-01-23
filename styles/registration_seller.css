@@ -171,7 +171,7 @@ z-index: 1;
   z-index: 1;
 } */
 
-#type_seller_person+label[for="type_seller_company"]::after {
+#type_seller_person+label::after {
   content: "";
   display: inline-block;
   vertical-align: middle;
