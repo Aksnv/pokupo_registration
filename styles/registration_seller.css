@@ -649,10 +649,10 @@ input[type="checkbox"]:checked:active+label:before {
 
 }  
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   
   .container {
-    max-width: 320px;
+    max-width: 300px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -664,6 +664,14 @@ input[type="checkbox"]:checked:active+label:before {
 
   .showLink {
     width: 300px;
+  }
+
+  input[type="radio"]+label:before {
+    left: 25px;
+  }
+
+  input[type="radio"]+label:after {
+    left: 34px;
   }
 
 }
