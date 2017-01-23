@@ -151,6 +151,22 @@ input[type="radio"]+label::after {
   z-index: 1;
 }
 
+input[type="radio"]+label[for="type_seller_company"]::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 18px;
+  width: 18px;
+  margin: -4px 6px 0 0;
+  border-radius: 50%;
+  background-color: yellow;
+
+  position: absolute;
+  top: 63px;
+  left: 119px;
+  z-index: 1;
+}
+
 /* Стили из файла tiles-box.css */
 .tilesBox .person {
   /* background: url("../../../images/img_23.png") no-repeat scroll 0 bottom transparent; */
