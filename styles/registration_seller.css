@@ -68,10 +68,6 @@ section.register-user {
 }
 /* END - Стили из файла tiles-box.css */
 
-label[for="type_seller_company"],
-label[for="type_seller_person"] {
-  position: relative;
-}
 
 input[type="checkbox"], input[type="radio"] {
   display: none;
@@ -107,68 +103,15 @@ input[type="radio"]:checked:active+label:before {
     background-position: -72px 0
 } */
 
-
-
-
-/* input[type="radio"]:checked+label:after {
+input[type="radio"]:checked+label:after {
   background-color: #02903d;
-} */
+}
 
+input[type="radio"]+label {
+  position: relative;
+}
 
-
-
-
-/* input[type="radio"]+label:before {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  height: 36px;
-  width: 36px;
-  margin: -4px 6px 0 0; */
-
-
-  /* background-image: url("../../../images/ui/pokupo-ui-radio.png"); */
-  /* background-image: url("../images/ui/pokupo-ui-radio.png");
-  background-repeat: no-repeat;
-  background-position: 0 0; */
-
-
-/*   border-radius: 50%;
-background-color: #ffffff;
-
-position: absolute;
-top: 211px;
-left: 100px;
-z-index: 1;
-} */
-
-/* input[type="radio"]+label:after {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  height: 18px;
-  width: 18px;
-  margin: -4px 6px 0 0; */
-
-
-  /* background-image: url("../../../images/ui/pokupo-ui-radio.png"); */
-  /* background-image: url("../images/ui/pokupo-ui-radio.png");
-  background-repeat: no-repeat;
-  background-position: 0 0; */
-
-
-/*   border-radius: 50%;
-background-color: #ffffff;
-
-position: absolute;
-top: 220px;
-left: 109px;
-z-index: 1;
-} */
-
-/* Альтернативное решение */
-#type_seller_company+label:before,
-#type_seller_person+label:before {
+input[type="radio"]+label::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -188,8 +131,7 @@ z-index: 1;
   z-index: 1;
 }
 
-#type_seller_company+label:after,
-#type_seller_person+label:after {
+input[type="radio"]+label::after {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -207,12 +149,6 @@ z-index: 1;
   top: 220px;
   left: 109px;
   z-index: 1;
-}
-
-
-#type_seller_company:checked+label:after,
-#type_seller_person:checked+label:after {
-  background-color: #02903d;
 }
 
 /* Стили из файла tiles-box.css */
@@ -644,44 +580,15 @@ input[type="checkbox"]:checked:active+label:before {
     background-position: -727px -895px;
   }
   
-  /* input[type="radio"]+label:after {
+  input[type="radio"]+label::after {
     top: 33px;
     left: 54px;
   }
-  
-  input[type="radio"]+label:before {
+
+  input[type="radio"]+label::before {
     top: 23px;
     left: 45px;
-  } */
-
-#type_seller_company+label:after,
-#type_seller_person+label:after {
-  top: 33px;
-    left: 54px;
-}
-
-
-#type_seller_company+label:before,
-#type_seller_person+label:before {
-  top: 23px;
-    left: 45px;
-}
-
-
-  /* label[for="type_seller_person"],
-  label[for="type_seller_company"] {
-    position: relative;
   }
-  
-  input[type="radio"]+label[for="type_seller_person"]:before {
-    top: 13px;
-    left: 45px;
-  }
-  
-  input[type="radio"]+label[for="type_seller_company"]:before {
-    top: 33px;
-    left: 45px;
-  } */
 
   .showLink {
     padding-left: 8px;
@@ -731,7 +638,7 @@ input[type="checkbox"]:checked:active+label:before {
     padding-left: 10px;
   }
 
-  input[type="checkbox"]+label:before {
+  input[type="checkbox"]+label::before {
     margin: -3px 4px 0 0;
   }
 
@@ -762,22 +669,12 @@ input[type="checkbox"]:checked:active+label:before {
     padding-left: 10px;
   }
 
-  /* input[type="radio"]+label:before {
+  input[type="radio"]+label::before {
     left: 25px;
   }
-  
-  input[type="radio"]+label:after {
+
+  input[type="radio"]+label::after {
     left: 34px;
-  } */
-
-  #type_seller_company+label:after,
-#type_seller_person+label:after {
-  left: 34px;
-}
-
-#type_seller_company+label:before,
-#type_seller_person+label:before {
-  left: 25px;
-}
+  }
 
 }
