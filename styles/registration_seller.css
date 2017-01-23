@@ -648,3 +648,11 @@ input[type="checkbox"]:checked:active+label:before {
   }
 
 }  
+
+@media screen and (max-width: 360px) {
+  
+  .container {
+    max-width: 320px;
+  }
+
+}
