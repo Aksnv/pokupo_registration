@@ -129,7 +129,7 @@ input[type="radio"]+label:before {
   position: absolute;
   top: 211px;
   left: 100px;
-  z-index: 2;
+  z-index: 1;
 }
 
 input[type="radio"]+label:after {
@@ -588,6 +588,16 @@ input[type="checkbox"]:checked:active+label:before {
 
   input[type="radio"]+label:before {
     top: 23px;
+    left: 45px;
+  }
+
+  input[type="radio"]+label[for="type_seller_person"]:before {
+    top: 13px;
+    left: 45px;
+  }
+
+  input[type="radio"]+label[for="type_seller_company"]:before {
+    top: 33px;
     left: 45px;
   }
 
