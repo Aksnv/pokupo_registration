@@ -8290,4 +8290,23 @@ body.locked {
     }
 }
 
+.page-header__line {
+  clear: both;
+  display: none;
+  width: 360px;
+  height: 3px;
+  background-color: #efece7;
+}
+
+@media screen and (max-width: 749px) {
+
+    .page-header__line {
+        display: block;
+        position: absolute;
+        top: 117px;
+    }
+    
+}
+
+
 
