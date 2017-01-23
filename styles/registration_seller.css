@@ -667,7 +667,7 @@ input[type="checkbox"]:checked:active+label:before {
   }
 
   .showLink {
-    width: 300px;
+    padding-left: 10px;
   }
 
   input[type="radio"]+label:before {
