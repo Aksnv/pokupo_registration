@@ -109,7 +109,6 @@ input[type="radio"]:checked+label::after {
 
 input[type="radio"]+label {
   position: relative;
-  display: block;
 }
 
 input[type="radio"]+label::before {
@@ -632,6 +631,10 @@ input[type="checkbox"]:checked:active+label::before {
 
   .tooltip__trigger {
     display: none;
+  }
+
+  input[type="radio"]+label {
+    display: block;
   }
 
   .input-holder input[type="checkbox"]+label, 
